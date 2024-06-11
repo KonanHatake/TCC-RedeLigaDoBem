@@ -1,15 +1,3 @@
-@font-face {
-    font-family: BukraFont;
-    src: url(../Fonts/29LTBukraBold.otf);
-}
-
-*
-{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-}
-
 .logo
 {
     padding: 15px;
@@ -45,4 +33,6 @@ header
 {
     display: flex;
     justify-content: space-between;
+    scroll-behavior: smooth;
+    background-color: aliceblue;
 }

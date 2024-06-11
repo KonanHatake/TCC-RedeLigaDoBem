@@ -1,0 +1,28 @@
+.titleF
+{
+    display: flex;
+    list-style-type: none;  
+    font-family: BukraFont;
+}
+
+.fdiv
+{
+    padding: 40px;
+    text-align: center;
+}
+
+.fdivL
+{
+    padding: 15px 0px 0px;
+    text-align: center;
+}
+
+
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    scroll-behavior: smooth;
+    background-color: aliceblue;
+    text-decoration: none;
+}
