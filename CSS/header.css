@@ -1,0 +1,48 @@
+@font-face {
+    font-family: BukraFont;
+    src: url(../Fonts/29LTBukraBold.otf);
+}
+
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.logo
+{
+    padding: 15px;
+}
+
+ul
+{
+    display: flex;
+    list-style-type: none;
+    padding: 35px;
+    font-family: BukraFont;
+}
+
+li
+{
+    padding: 10px;
+}
+
+.help 
+{
+    padding: 32px;
+}
+
+.helpB
+{
+    padding: 10px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
