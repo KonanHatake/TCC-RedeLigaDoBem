@@ -18,7 +18,7 @@ li
 
 .help 
 {
-    padding: 32px;
+    padding: 45px;
 }
 
 .helpB
@@ -27,6 +27,10 @@ li
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     border-radius: 50px;
+    border: none;
+    background-color: white;
+    color: #0096B6;
+    font-family: BukraFont;
 }
 
 header
@@ -34,5 +38,6 @@ header
     display: flex;
     justify-content: space-between;
     scroll-behavior: smooth;
-    background-color: aliceblue;
+    background-color: #0096B6;
+    color: white;
 }

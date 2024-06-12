@@ -1,6 +1,5 @@
 .titleF
 {
-    display: flex;
     list-style-type: none;  
     font-family: BukraFont;
 }
@@ -9,20 +8,36 @@
 {
     padding: 40px;
     text-align: center;
+    font-family: CocoGothicFont;
+}
+
+.copy
+{
+    font-family: CocoGothicFont;
+}
+
+.numero
+{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .fdivL
 {
     padding: 15px 0px 0px;
-    text-align: center;
+    text-align: left;
 }
 
+.fa fa-facebook
+{
+    color: #0096B6;
+}
 
 footer
 {
     display: flex;
     justify-content: space-around;
     scroll-behavior: smooth;
-    background-color: aliceblue;
+    background-color: #0096B6;
+    color: white;
     text-decoration: none;
 }

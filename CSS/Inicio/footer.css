@@ -1,0 +1,42 @@
+.titleF
+{
+    list-style-type: none;  
+    font-family: BukraFont;
+}
+
+.fdiv
+{
+    padding: 40px;
+    text-align: center;
+    font-family: CocoGothicFont;
+}
+
+.copy
+{
+    font-family: CocoGothicFont;
+}
+
+.numero
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fdivL
+{
+    padding: 15px 0px 0px;
+    text-align: left;
+}
+
+.fa fa-facebook
+{
+    color: white;
+}
+
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    scroll-behavior: smooth;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+}
