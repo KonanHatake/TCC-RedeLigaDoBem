@@ -51,9 +51,61 @@
     font-family: BukraFont;
 }
 
-.cards
+.QuemSomos
 {
-    -webkit-box-shadow: 0px 3px 5px 0px rgba(112,112,112,0.34);
--moz-box-shadow: 0px 3px 5px 0px rgba(112,112,112,0.34);
-box-shadow: 0px 3px 5px 0px rgba(112,112,112,0.34);
+    height: 50vh;
+}
+
+.QuemSomos h1
+{
+    text-align: center;
+    color: #0096B6;
+}
+
+.MVV
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #0096B6;
+    height: 50vh;
+}
+
+.Missão
+{
+    background-color: #0096B6;
+    padding: 220px 30px;
+    text-align: justify;
+}
+
+.Visão
+{
+    background-color: #68d0e7;
+    padding: 220px 30px;
+    text-align: justify;
+}
+
+.Valor
+{
+    background-color: #093c47;
+    padding: 220px 30px;
+    text-align: justify;
+}
+
+.Missão h3, .Visão h3, .Valor h3
+{
+    padding: 15px;
+    font-size: 30px;
+    font-family: BukraFont;
+    text-align: center;
+}
+
+.Membros
+{
+    height: 50vh;
+}
+
+.Membros h1
+{
+    text-align: center;
+    color: #0096B6;
 }

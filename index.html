@@ -4,38 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rede Liga do Bem</title>
-    <link rel="stylesheet" href="CSS/Inicio/global.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/Inicio/global.css">
 </head>
 <body>
     <header>
             <div class="logo">
-                <img src="Imagens/LogoRGB.png" alt="Logo Colorida" height="80px" width="165px" >
+                <a href="../TCC-RedeLigaDoBem/index.html"><img src="Imagens/LogoRGB.png" alt="Logo Colorida" height="90px" width="175px"></a>
             </div>
 
             <div class="buttonsH">
-                <ul>
-                    <li><a href="">INICIO</a></li>
+                <a href="../TCC-RedeLigaDoBem/index.html">INICIO</a>
+                
+                <a href="../TCC-RedeLigaDoBem/HTML/Instituição.html">INSTITUIÇÃO</a>
 
-                    <li>                      
-                      <button class="buttonH">INSTITUIÇÃO 
-                      <i class="fa fa-caret-down"></i>
-                      </button></li>
+                <a href="../TCC-RedeLigaDoBem/HTML/">ATIVIDADES</a>
 
-                    <li>
-                      <button class="buttonH">ATIVIDADES
-                        <i class="fa fa-caret-down"></i>
-                      </button></li>
-
-                    <li>                      
-                      <button class="buttonH">DOAÇÕES
-                      <i class="fa fa-caret-down"></i>
-                      </button></li>
-                </ul>
+                <a href="../TCC-RedeLigaDoBem/HTML/">DOAÇÕES</a>
             </div>
 
             <div class="help">
                 <a href="" class="helpB">AJUDE NOS</a>
+            </div>
+
+            <!--BOTÃO PARA O MOBILE-->
+
+            <div class="hamburguer" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
             </div>
     </header>
     <hr>
@@ -49,18 +46,53 @@
         </div>
 
         <div class="cards">
+            <div class="card">
+                <img src="../TCC-RedeLigaDoBem/Imagens/FaleConoscoCard.png" alt="" width="210px" height="295px">
+                <h3>FALE CONOSCO</h3>
+            </div>
+            <div class="card">
+                <img src="../TCC-RedeLigaDoBem/Imagens/InstituiçãoCard.png" alt="" width="110px" height="295px">
+                <h3>INSTITUIÇÃO</h3>
+            </div>
+            <div class="card">
+                <img src="../TCC-RedeLigaDoBem/Imagens/AtividadesCard.png" alt="" width="160px" height="295px">
+                <h3>ATIVIDADES</h3>
+            </div>
+            <div class="card">
+                <img src="../TCC-RedeLigaDoBem/Imagens/DoaçõesCard.png" alt="" width="130px" height="295px">
+                <h3>DOAÇÕES</h3>
+            </div>
+            <div class="card">
+                <img src="../TCC-RedeLigaDoBem/Imagens/ApoiadoresCard.png" alt="" width="170px" height="295px">
+                <h3>AJUDE-NOS</h3>
+            </div>
         </div>
-
-        <div class="gallery">
-
-        </div>
+        <hr>
 
         <div class="relatos">
+            <img src="../TCC-RedeLigaDoBem/Imagens/RandolaImage.jpg" alt="" width="300px" height="300px">
 
+            <div class="textRelatos">
+                <h2>Julia Gomes da Silva</h2>
+                <p class="subtitleRelatos">Ex Aluna</p>
+                <div class="relato">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tempus iaculis urna id. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Quis enim lobortis scelerisque fermentum dui. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim. Fames ac turpis egestas integer. Volutpat odio facilisis mauris sit amet massa vitae. Mauris augue neque gravida in fermentum. Pretium vulputate sapien nec sagittis aliquam. Posuere morbi leo urna molestie at elementum eu facilisis sed.
+                    <br> <br>
+                    Felis eget nunc lobortis mattis aliquam. Convallis tellus id interdum velit laoreet id donec ultrices tincidunt. Aliquam vestibulum morbi blandit cursus risus. Tempor orci dapibus ultrices in. Nulla facilisi cras fermentum odio eu. Risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Euismod in pellentesque massa placerat duis ultricies lacus sed turpis. Eget est lorem ipsum dolor. Enim neque volutpat ac tincidunt. Proin libero nunc consequat interdum varius sit amet mattis vulputate.</p>
+                </div>
+            </div>
         </div>
+        <hr>
 
         <div class="map">
+            <div class="textM">
+                <img src="../TCC-RedeLigaDoBem/Imagens/Map.png" alt="Mapa" height="350px" width="350px">
+                <h3>Rua Abril Peres <br> 35, Jardim das Rosas</h3>
+            </div>
 
+            <div class="mapIframe">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.4710035780486!2d-46.79554512378554!3d-23.65910856519232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce53733dc6fa9f%3A0x3237b9a6fccc693e!2sR.%20Abril%20Peres%2C%2035%20-%20Jardim%20das%20Rosas%20(Zona%20Sul)%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005893-010!5e0!3m2!1sen!2sbr!4v1718642936352!5m2!1sen!2sbr" width="300px" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
     </main>
 
@@ -72,24 +104,24 @@
         </div>
 
         <div class="fdiv">
-            <p class="titleF">Instituição</p>
-            <p><a href="">Instituição</a></p> 
-            <p><a href="">MVV</a></p>
-            <p><a href="">Membros</a></p>
+            <p class="titleF"><a href="">Instituição</a></p>
+            <p class="othersF"><a href="">Instituição</a></p> 
+            <p class="othersF"><a href="">MVV</a></p>
+            <p class="othersF"><a href="">Membros</a></p>
         </div>
 
         <div class="fdiv">
             <p class="titleF"><a href="">Atividades</a></p>
-            <p><a href="">Como funciona</a></p>
-            <p><a href="">Horários</a></p>
-            <p><a href="">Atividades</a></p>
+            <p class="othersF"><a href="">Como funciona</a></p>
+            <p class="othersF"><a href="">Horários</a></p>
+            <p class="othersF"><a href="">Atividades</a></p>
         </div>
 
         <div class="fdiv">
             <p class="titleF"><a href="">Doações</a></p>
-            <p><a href="">Como funciona</a></p>
-            <p><a href="">Formas</a></p>
-            <p><a href="">Para que fins</a></p>
+            <p class="othersF"><a href="">Como funciona</a></p>
+            <p class="othersF"><a href="">Formas</a></p>
+            <p class="othersF"><a href="">Para que fins</a></p>
         </div>
 
         <div class="fdiv">
@@ -100,15 +132,19 @@
 
         <div class="fdiv">
             <p class="titleF"><a href="">Ajude-nos</a></p>
-            <p><a href="">Como funciona</a></p>
-            <p><a href="">Torne Apoiador</a></p>
+            <p class="othersF"><a href="">Como funciona</a></p>
+            <p class="othersF"><a href="">Torne Apoiador</a></p>
         </div>
 
         <div class="fdiv">
             <p class="titleF"><a href="">Rede Sociais</a></p>
-            <a href="" class="fa fa-facebook"></a>
-            <a href="" class="fa fa-instagram"></a>
+            <div class="othersF">
+                <a href="" class="fa fa-facebook"></a>
+                <a href="" class="fa fa-instagram"></a>
+            </div>
         </div>
     </footer>
+
+    <script src="../TCC-RedeLigaDoBem/JS/script.js"></script>
 </body>
 </html>

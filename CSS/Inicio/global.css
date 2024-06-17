@@ -1,6 +1,11 @@
 @import url(../Inicio/header.css);
-@import url(../Inicio/conteudo.css);
+@import url(../Inicio/banner.css);
+@import url(../Inicio/cards.css);
+@import url(../Inicio/gallery.css);
+@import url(../Inicio/relatos.css);
+@import url(../Inicio/map.css);
 @import url(../Inicio/footer.css);
+@import url(../Inicio/responsivo.css);
 @font-face 
 {
     font-family: BukraFont;
@@ -36,3 +41,7 @@ hr
 {
     color: #0096B6;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
