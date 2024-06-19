@@ -1,0 +1,48 @@
+@import url(../Inicio/header.css);
+@import url(../Inicio/banner.css);
+@import url(../Inicio/cards.css);
+@import url(../Inicio/gallery.css);
+@import url(../Inicio/relatos.css);
+@import url(../Inicio/slider.css);
+@import url(../Inicio/map.css);
+@import url(../Inicio/footer.css);
+@import url(../Inicio/responsivo.css);
+@font-face 
+{
+    font-family: BukraFont;
+    src: url(../Fonts/29LTBukraBold.otf);
+}
+@font-face 
+{
+    font-family: CocoGothicFont;
+    src: url(../Fonts/CocoGothic_trial.ttf);
+    font-weight: bold;
+}
+@font-face 
+{
+    font-family: CocoGothicFont;
+    src: url(../Fonts/CocoGothic-UltraLight_trial.ttf);
+    font-weight: lighter;
+}
+@font-face 
+{
+    font-family: CocoGothicFont;
+    src: url(../Fonts/CocoGothic-Light_trial.ttf);
+}
+
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: #0096B6;
+}
+
+hr
+{
+    color: #0096B6;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
