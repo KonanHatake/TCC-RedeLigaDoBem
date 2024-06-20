@@ -79,8 +79,8 @@ ul{
 }
 
 ul li{
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     border: 2px  #0096B6 solid;
     border-radius: 60px;
     display: flex;
@@ -91,15 +91,14 @@ ul li{
 }
 
 ul li:hover{
-    height: 40px;
-    width: 150px;
+    height: 30px;
+    width: 140px;
 
 }
 
 ul li .icone{
-    font-size: 25px;
+    font-size: 18px;
     transition: .2s;
-    padding-top: 2px;
 }
 
 ul li .texto{
