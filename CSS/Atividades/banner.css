@@ -1,0 +1,36 @@
+.banner
+{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bannerImagem
+{
+    background-position: cover;
+    background-size: center;
+    height: 68vh;
+    
+}
+
+.letraA
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: BukraFont;
+    font-size: 40px;
+}
+
+.letraB
+{
+    color: black;
+    font-family: BukraFont;
+    font-size: 40px;
+    text-align: center;
+    margin: 30px;
+
+}
+

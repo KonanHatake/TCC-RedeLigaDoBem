@@ -1,0 +1,21 @@
+@media(max-width:360px)
+{
+    .cards
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0px;
+    }
+
+    .bannerImage
+    {
+        height: 30vh;
+    }
+    .titleB
+    {
+        width: 100%;
+        font-size: 30px;
+    }
+}
