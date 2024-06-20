@@ -5,6 +5,7 @@
     max-height: 50vh;
     height: 50vh;
     min-height: 10vh;
+    padding: 20px;
     flex-wrap: wrap;
     overflow: hidden;
 }
