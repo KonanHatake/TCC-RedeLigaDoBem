@@ -26,7 +26,11 @@
 .textRelatos h2
 {
     padding: 2px 13px;
+<<<<<<< Updated upstream
     font-family: BukraFont;
+=======
+    font-family: NexaFont;
+>>>>>>> Stashed changes
     font-size: 30px;
 }
 

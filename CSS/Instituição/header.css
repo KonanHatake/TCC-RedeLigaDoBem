@@ -10,7 +10,12 @@
     justify-content: space-between;
     list-style-type: none;
     padding: 50px 0px;
+<<<<<<< Updated upstream
     font-family: BukraFont;
+=======
+    font-family: NexaFont;
+    font-weight: bold;
+>>>>>>> Stashed changes
 }
 
 .help 
@@ -27,7 +32,12 @@
     border: none;
     background-color: white;
     color: #0096B6;
+<<<<<<< Updated upstream
     font-family: BukraFont;
+=======
+    font-family: NexaFont;
+    font-weight: bold;
+>>>>>>> Stashed changes
 }
 
 header
@@ -35,7 +45,11 @@ header
     display: flex;
     justify-content: space-between;
     scroll-behavior: smooth;
+<<<<<<< Updated upstream
     background-color: #0096B6;
+=======
+    background: linear-gradient(#078fad, #0096B6 90%,  #01758f);
+>>>>>>> Stashed changes
     color: white;
 }
 

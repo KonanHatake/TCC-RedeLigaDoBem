@@ -13,14 +13,24 @@
     justify-content: space-between;
     list-style-type: none;
     padding: 50px 0px;
+<<<<<<< Updated upstream
     font-family: BukraFont;
+=======
+    font-family: NexaFont;
+    font-weight: bold;
+>>>>>>> Stashed changes
 }
 
 .buttonH
 {
     border: none;
     background-color: transparent;
+<<<<<<< Updated upstream
     font-family: BukraFont;
+=======
+    font-family: NexaFont;
+    font-weight: bold;
+>>>>>>> Stashed changes
 
 }
 
@@ -38,7 +48,12 @@
     border: none;
     background-color: #0096B6;
     color: white;
+<<<<<<< Updated upstream
     font-family: BukraFont;
+=======
+    font-family: NexaFont;
+    font-weight: bold;
+>>>>>>> Stashed changes
 }
 
 header
@@ -47,8 +62,13 @@ header
     display: flex;
     justify-content: space-between;
     scroll-behavior: smooth;
+<<<<<<< Updated upstream
     background-color: rgb(255, 255, 255);
     font-size: 14px;
+=======
+    background: linear-gradient(rgb(248, 247, 247), rgb(255, 255, 255) 90%,  rgb(238, 237, 237) );
+    font-size: 17px;
+>>>>>>> Stashed changes
 }
 
 header .hamburguer

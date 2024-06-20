@@ -1,20 +1,7 @@
-@import url(../Inicio/header.css);
-@import url(../Inicio/banner.css);
-@import url(../Inicio/cards.css);
-<<<<<<< Updated upstream
-@import url(../Inicio/gallery.css);
-@import url(../Inicio/relatos.css);
-@import url(../Inicio/map.css);
-@import url(../Inicio/footer.css);
-@import url(../Inicio/responsivo.css);
-@font-face 
-{
-    font-family: BukraFont;
-    src: url(../Fonts/29LTBukraBold.otf);
-=======
-@import url(../Inicio/relatos.css);
-@import url(../Inicio/map.css);
-@import url(../Inicio/footer.css);
+@import url(../Doações/header.css);
+@import url(../Doações/banner.css);
+@import url(../Doações/conteudo.css);
+@import url(../Doações/footer.css);
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 @font-face 
 {
@@ -28,7 +15,6 @@
     font-family: NexaFont;
     src: url(../Fonts/Nexa-ExtraLight.ttf);
     font-weight: lighter;
->>>>>>> Stashed changes
 }
 @font-face 
 {
@@ -48,26 +34,14 @@
     src: url(../Fonts/CocoGothic-Light_trial.ttf);
 }
 
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 *
 {
     padding: 0;
     margin: 0;
     text-decoration: none;
-    color: #0096B6;
+    color: white;
 }
 
-<<<<<<< Updated upstream
-hr
-{
-    color: #0096B6;
-}
-
-=======
->>>>>>> Stashed changes
 html {
     scroll-behavior: smooth;
   }

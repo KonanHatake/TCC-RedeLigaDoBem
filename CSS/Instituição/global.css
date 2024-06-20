@@ -1,4 +1,5 @@
 @import url(../Instituição/header.css);
+<<<<<<< Updated upstream
 @import url(../Instituição/conteudo.css);
 @import url(../Instituição/footer.css);
 @import url(../Instituição/dropdown.css);
@@ -6,6 +7,24 @@
 {
     font-family: BukraFont;
     src: url(../Fonts/29LTBukraBold.otf);
+=======
+@import url(../Instituição/banner.css);
+@import url(../Instituição/footer.css);
+@import url(../Instituição/conteudo.css);
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@font-face 
+{
+    font-family: NexaFont;
+    src: url(../Fonts/Nexa-Heavy.ttf);
+    font-weight: bold;
+}
+
+@font-face 
+{
+    font-family: NexaFont;
+    src: url(../Fonts/Nexa-ExtraLight.ttf);
+    font-weight: lighter;
+>>>>>>> Stashed changes
 }
 @font-face 
 {
@@ -33,7 +52,13 @@
     color: white;
 }
 
+<<<<<<< Updated upstream
 hr
 {
     color: #0096B6;
 }
+=======
+html {
+    scroll-behavior: smooth;
+  }
+>>>>>>> Stashed changes
