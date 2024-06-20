@@ -9,11 +9,7 @@
 {
     background-size: cover;
     background-position: center;
-<<<<<<< Updated upstream
-    height: 50vh;
-=======
     height: 68vh;
->>>>>>> Stashed changes
 }
 
 .titleB
@@ -23,11 +19,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-<<<<<<< Updated upstream
-    font-family: BukraFont;
-=======
     font-family: NexaFont;
->>>>>>> Stashed changes
     font-size: 40px;
 }
 
@@ -56,10 +48,6 @@
     border: none;
     background-color: #0096B6;
     color: white;
-<<<<<<< Updated upstream
-    font-family: BukraFont;
-=======
     font-family: NexaFont;
     font-weight: bold;
->>>>>>> Stashed changes
 }

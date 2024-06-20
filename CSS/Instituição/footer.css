@@ -1,16 +1,3 @@
-<<<<<<< Updated upstream
-.titleF
-{
-    list-style-type: none;  
-    font-family: BukraFont;
-}
-
-.fdiv
-{
-    padding: 40px;
-    text-align: center;
-    font-family: CocoGothicFont;
-=======
 .Logof{
     width: 230px;
     height: 230px;
@@ -26,14 +13,11 @@
 {
     align-items: center;
     padding: 15px;
->>>>>>> Stashed changes
 }
 
 .copy
 {
     font-family: CocoGothicFont;
-<<<<<<< Updated upstream
-=======
     font-size: small;
     text-align: center;
     padding: 0px, 0px, 50px;
@@ -71,7 +55,6 @@
     padding: 20px 30px 20px 0px;
     text-align: center;
     font-family: CocoGothicFont;
->>>>>>> Stashed changes
 }
 
 .numero
@@ -79,17 +62,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-<<<<<<< Updated upstream
-.fdivL
-{
-    padding: 15px 0px 0px;
-    text-align: left;
-}
-
-.fa fa-facebook
-{
-    color: #0096B6;
-=======
 .buttonsF
 {
     margin: auto;
@@ -143,21 +115,14 @@ ul li:hover .texto{
 }
 ul li:hover .icone{
     transform: scale(0);
->>>>>>> Stashed changes
 }
 
 footer
 {
     display: flex;
-<<<<<<< Updated upstream
-    justify-content: space-around;
-    scroll-behavior: smooth;
-    background-color: #0096B6;
-=======
     flex-direction: column;
     scroll-behavior: smooth;
     background: linear-gradient(#078fad, #0096B6 90%,  #01758f);
->>>>>>> Stashed changes
     color: white;
     text-decoration: none;
 }

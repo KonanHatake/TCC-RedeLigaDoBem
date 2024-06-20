@@ -1,13 +1,4 @@
 @import url(../Instituição/header.css);
-<<<<<<< Updated upstream
-@import url(../Instituição/conteudo.css);
-@import url(../Instituição/footer.css);
-@import url(../Instituição/dropdown.css);
-@font-face 
-{
-    font-family: BukraFont;
-    src: url(../Fonts/29LTBukraBold.otf);
-=======
 @import url(../Instituição/banner.css);
 @import url(../Instituição/footer.css);
 @import url(../Instituição/conteudo.css);
@@ -24,7 +15,6 @@
     font-family: NexaFont;
     src: url(../Fonts/Nexa-ExtraLight.ttf);
     font-weight: lighter;
->>>>>>> Stashed changes
 }
 @font-face 
 {
@@ -52,13 +42,6 @@
     color: white;
 }
 
-<<<<<<< Updated upstream
-hr
-{
-    color: #0096B6;
-}
-=======
 html {
     scroll-behavior: smooth;
   }
->>>>>>> Stashed changes
