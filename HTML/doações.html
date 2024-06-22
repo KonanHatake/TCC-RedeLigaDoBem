@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="logo">
-            <a href="../index.html"><img src="../Imagens/LogoBranca.png" alt="Logo Branca" height="85px" width="175px"></a>
+            <a href="../index.html"><img src="../Imagens/LogoBranca.png" alt="Logo Branca" height="90px" width="175px"></a>
         </div>
 
         <div class="buttonsH">
@@ -21,10 +21,11 @@
 
             <a href="../HTML/Doações.html">DOAÇÕES</a>
         </div>
-
+        
         <div class="help">
             <a href="" class="helpB">AJUDE-NOS</a>
         </div>
+
     </header>
     <!--header-->
 
@@ -54,22 +55,102 @@
         <div class="bloco">
          <div class="caixa1">
                 <span class="formas">Formas de doação</span>
-                <li class="a">Dinheiro</li>
-                <li class="b">Itens físicos</li>
-                <li class="c">Outros</li>
+
+                <button onclick="showEhide()" class="a"> Dinheiro </button>
+
+                <button onclick="showOrHide()" class="b"> Itens físicos </button>
+
+                <button onclick="showYhide()" class="c"> Outros </button>
          </div>
 
-         <div class="caixa2">
+         <div id="caixa2" class="caixa2">
+            <div class="Image">
+                <img class="botoesIMG" src="../CSS/Imagens/botoesIMG.png" alt="boneco doações">
+            </div>
+           
+            <div id="A" class="A">
+                <div class="tudo">
+                <div class="FormasD">
+                    <p class="Nome">Silvana Mendes de Melo</p>
+                    <p class="Info">LigadoBem</p>
+                    <p class="Nome">Chave Pix</p>
+                    <p class="Info">+5511980485370</p>
+                </div>
+              <div class="Code">
+                <img class="QRcode"  src="../Imagens/CodeD.jpg" alt="QRcode">
+            </div>
+        </div> 
+            </div>
+
+            <div id="B" class="B">
+                <div class="tudoB">
+                        <p class="FormasB">Entre em contato</p>
+                        <p class="NomeB">E-mail</p>
+                        <p class="InfoB">contatoredeligadobem@gmail.com</p>
+                        <p class="NomeB">Telefone</p>
+                        <p class="InfoB">+55 11 91926-8005 <br>+55 11 98048-5370</p>
+                        <p class="FormasB">Ou venha nos visitar!</p>
+                        <p class="InfoB">Rua Abril Peres, 35, JD. das Rosas</p>
+                 </div>
+                </div>
+
+
+            <div id="C" class="C">
+                <div class="tudoC">
+                <p class="FormasC">Deseja se tornar um voluntário ou realizar uma parceria com a gente?</p>
+                        <p class="InfoC">Escreva um e-mail para a <span class="e-mail">contatoredeligadobem@gmail.com</span>, preenchendo o 
+                            espaço assunto com "Voluntário" ou "Parceria". </p>
+                        <p class="NomeC">Agora é só enviar!</p>
+                    </div>
+            </div>
          </div>
+
        </div>
          <!--Botões-->
+
+         <!--Caminho da doação-->
+
+         <div class="tituloD"><p class="tituloCD">O poder da sua doação</p></div>
+
+         <div class="container">
+
+            <div class="textoL">
+                <h1 class="P1">SUA DOAÇÃO FORTALECE <br> O ESPORTE</h1>
+                <p class="p1">Organizamos eventos e distribuimos<br> presentes para as crianças.
+               </p>
+
+               <h1 class="P11">SUA DOAÇÃO FOMENTA <br> A SOLIDARIEDADE</h1>
+                <p class="p11">Capacitamos voluntários para atender <br> a comunidade em ações solidárias.
+               </p>
+            </div>
+
+               <img class="CaminhoDoacao" src="../Imagens/CaminhoDoacao.jpg" alt="Caminho da sua doação">
+
+               <div class="textoR">
+               <h1 class="P2">VOCÊ PROPORCIONA <br>MOMENTOS DE ALEGRIA</h1>
+                <p class="p2">Organizamos eventos e distribuimos<br> presentes para crianças.
+               </p>
+
+               <h1 class="P22">VOCÊ AJUDA NA DISTRIBUIÇÃO <br> DE CESTAS BÁSICAS</h1>
+                <p class="p22">Garantimos alimentos para famílias <br> carentes.
+               </p>
+
+               <h1 class="P222">SUA DOAÇÃO PROMOVE <br> A EDUCAÇÃO</h1>
+                <p class="p222">Oferecemos reforço escolar para <br> jovens e crianças.
+               </p>
+                </div>
+
+            </div>
+         <!--Caminho da doação-->
+
+         
     </main>
 
         <!--footer-->
         <hr>
     <footer>
         <div class="LogoSpaceF">
-            <a href="../index.html"><img src="../Imagens/LogoVBranca.png alt="Logo Branca" class="Logof"></a>
+            <a href="../index.html"><img src="../Imagens/LogoVBranca.png" class="Logof"></a>
         </div>
         <div class="textF">
             <p>A instituição Rede Liga do Bem surgiu através da vontade de criar um espaço seguro, solidário 
@@ -99,8 +180,8 @@
     
             <div class="fdiv">
                 <p class="titleF">Contato</p><br>
-                <p class="numero">(11)9XXXX-XXXX</p>
-                <p>G-mail</a></p>
+                <p class="numero">+55 11 98048-5370</p>
+                <p class="contato">contatoredeligado<br>bem@gmail.com</a></p>
             </div>
     
             <div class="fdiv">
@@ -112,9 +193,9 @@
             <div class="fdiv">
                 <p class="titleF">Redes sociais</p>
                 
-            <ul>
+            <ul class="u">
              <a href="https://www.instagram.com/redeligadobem?igsh=MXdjbzh2Ng==qYndzZ2t">
-                <li>
+                <li class="l">
                        <span class="icone"><i class="bi bi-instagram"></i></span>
                        <span class="texto">redeligadobem</span>
                 </li>
