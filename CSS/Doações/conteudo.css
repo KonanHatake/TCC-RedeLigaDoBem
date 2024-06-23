@@ -1,9 +1,15 @@
+/*Texto da página*/
+.TI{
+    display: flex;
+    justify-content: center;
+}
 .textoInicial{
-    height: 53vh;
+    height: 49vh;
+    width: 160vh;
 }
 .tituloInicial,.paragrafoInicial{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 .tituloInicial{
     color: #cc1a1a;
@@ -18,7 +24,7 @@
 }
 /*Texto da página*/
 
-
+/*área dos botões*/
 .bloco{
     margin: auto;
     width: 900px;
@@ -107,13 +113,16 @@
 }
 /*área dos botões*/
 
-
+/*conteúdo dos botões*/
 .Image{
     position: absolute;
 }
 .botoesIMG{
     width: 550px;
     height: 298px;
+}
+.botoesIMG2{
+    display: none;
 }
 .tudo{
     display: flex;
@@ -141,7 +150,6 @@
 .Code{
     width: 170px;
     height: 298px;
-    
 }
 .QRcode{
     width: 180px;
@@ -149,7 +157,6 @@
     padding-top: 65px;
     padding-right: 20px;
 }
-
 .tudoB{
     text-align: center;
     padding-top: 10px;
@@ -198,7 +205,9 @@
 .e-mail{
     color:#da1919;
 }
+/*conteúdo dos botões*/
 
+/*O poder da sua doação*/
 .tituloD{
     display: flex;
     justify-content: center;
@@ -215,15 +224,13 @@
     margin-bottom: 2%;
 
 }
-/*conteúdo dos botões*/
-
 .container{
     display: flex;
     justify-content: center;
     margin-bottom: 2%;
 }
 .textoL,.textoR{
-    width: 540px;
+    width: 350px;
     height: 125vh;
 }
 .textoL{
@@ -244,13 +251,13 @@
     margin-top: 50px;
 }
 .P22{
-    margin-top: 180px;
+    margin-top: 170px;
 }
 .P222{
-    margin-top: 165px;
+    margin-top: 140px;
 }
 .P1{
-    margin-top: 210px;
+    margin-top: 200px;
 }
 .P11{
     margin-top: 160px;
