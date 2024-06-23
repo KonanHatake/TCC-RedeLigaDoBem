@@ -1,0 +1,100 @@
+main .titulo
+{
+    color: rgb(8, 8, 8);
+    height: 30vh;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2.5rem;
+    text-align: center;
+}
+
+@media (max-width: 768px) 
+{
+    main .formulario 
+    {
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+        padding: 0;
+    }
+}
+
+main .formulario 
+{
+    margin: 10px auto;
+    max-width: 100%;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.formulario .contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato .silvana {
+    padding: 15px 0px;
+    line-height: 1.7rem;
+}
+
+.contato .silvana h5 {
+    font-size: 1.05rem;
+    font-weight: 600;
+}
+
+.formulario .forms {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.forms .inputs {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    margin: 20px 0px;
+    position: relative;
+}
+
+.forms .inputs input {
+    border: none;
+    border: 1px solid black;
+    padding: 10px 13px;
+    width: 100%;
+    font-size: .9rem;
+}
+
+.forms .inputs label {
+    color: #a87b4da0;
+    background-color: #Fff;
+    border-radius: 2px;
+    font-size: .9rem;
+    font-weight: 500;
+    padding-inline: 3px;
+    position: absolute;
+    left: 4rem;
+    top: -10px;
+    transition: 0.2s ease all;
+}
+
+.forms button[type="submit"] {
+    margin-top: 15px;
+    padding: 10px 30px;
+    font-size: .9rem;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: black;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out .4s;
+    border: 1px solid black;
+    box-shadow: inset 0 0 0 0 palevioletred;
+}

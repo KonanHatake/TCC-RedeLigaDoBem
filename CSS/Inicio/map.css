@@ -1,0 +1,32 @@
+.map
+{
+    width: 60%;
+    display: flex;
+    margin: auto;
+}
+
+.textM
+{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+}
+
+.textM h3
+{
+    width: 500px;
+    text-align: center;
+}
+
+.textM img
+{
+    width: 500px;
+    height: 500px;
+}
+
+.mapIframe
+{
+    width: 500px;
+    height: 500px;
+}
