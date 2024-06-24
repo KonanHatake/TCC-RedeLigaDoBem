@@ -1,0 +1,41 @@
+.ComoFunciona
+{
+    height: 50vh;
+    display: flex;
+   justify-content: center;
+   padding: 35px;
+}
+
+.ComoFunciona h1, .ComoFunciona p
+{
+    padding: 20px;
+    color: rgb(34, 28, 0);
+}
+
+.ComoFunciona h1
+{
+    font-family: NexaFont;
+    text-align: center;
+    font-size: 40px
+}
+
+.ComoFunciona p
+{
+    font-size: 20px;
+    margin: auto;
+    width: 80%;
+    text-align: justify;
+}
+
+.text
+{
+    width: 90%;
+    text-align: center;
+    font-size: 1.2rem;
+    
+}
+
+.comotext
+{
+  width: 600px;
+}

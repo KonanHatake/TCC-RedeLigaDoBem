@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 
 .Logof{
     width: 230px;
@@ -127,4 +128,142 @@ footer
     background: linear-gradient(180deg, rgba(242,188,27,1) 45%, rgba(224,168,0,1) 70%);
     color: white;
     text-decoration: none;
+=======
+.Logof{
+    width: 230px;
+    height: 230px;
+}
+
+.LogoSpaceF
+{
+    margin: 10px auto 0px;
+    width: 230px;
+}
+
+.logof
+{
+    align-items: center;
+    padding: 15px;
+}
+
+.copy
+{
+    font-family: CocoGothicFont;
+    font-size: small;
+    text-align: center;
+    padding: 0px, 0px, 50px;
+}
+
+.copyrightF
+{
+    text-align: center;
+    padding: 0px 0px 25px;
+}
+
+.titleF
+{
+    list-style-type: none;  
+    font-family: NexaFont;
+    font-weight: bold;
+    font-size: 18px;
+    width: 140px;
+}
+
+.othersF{
+    width: 140px;
+}
+
+.textF
+{
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    font-family: CocoGothicFont;
+}
+
+.fdiv
+{
+    padding: 20px 30px 20px 0px;
+    text-align: center;
+    font-family: CocoGothicFont;
+}
+
+.numero
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.buttonsF
+{
+    margin: auto;
+    width: 997px;;
+    display: flex;
+    flex-direction: row;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+ul li{
+    width: 35px;
+    height: 35px;
+    border: 2px  #ffffff solid;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: .2s;
+}
+
+ul li:hover{
+    height: 30px;
+    width: 140px;
+
+}
+
+ul li .icone{
+    font-size: 18px;
+    transition: .2s;
+}
+
+ul li .texto{
+    transform: scale(0);
+    transition: .2s;
+    font-size: 18px;
+}
+
+ul li span{
+    position: absolute;
+}
+ul li:hover .texto{
+    transform: scale(1);
+}
+ul li:hover .icone{
+    transform: scale(0);
+}
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+    background: linear-gradient(#eec71c 90%,  #dfac06);
+    color: white;
+    text-decoration: none;
+}
+.icone{
+    padding-top: 2px;
+}
+
+.contato{
+    font-family: NexaFont;
+    font-size: 15px;
+>>>>>>> Stashed changes
 }
