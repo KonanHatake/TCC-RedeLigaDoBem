@@ -37,7 +37,7 @@ header
     display: flex;
     justify-content: space-between;
     scroll-behavior: smooth;
-    background: linear-gradient(#078fad, #0096B6 90%,  #01758f);
+    background: linear-gradient(rgb(29, 191, 4), #50b936 90%, rgb(44, 165, 28));;
     color: white;
 }
 

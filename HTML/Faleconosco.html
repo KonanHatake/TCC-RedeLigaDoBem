@@ -8,111 +8,83 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <a href="../index.html"><img src="../Imagens/LogoBranca.png" alt="Logo Branca" height="85px" width="175px"></a>
-        </div>
 
-        <div class="buttonsH">
-            <a href="../index.html">INICIO</a>
-            
-            <a href="../HTML/Instituição.html">INSTITUIÇÃO</a>
+<header>
+    <div class="logo">
+        <a href="../index.html"><img src="../Imagens/LogoBranca.png" alt="Logo Branca" height="85px" width="175px"></a>
+    </div>
 
-            <a href="../HTML/Atividades.html">ATIVIDADES</a>
+    <div class="buttonsH">
+        <a href="../index.html">INICIO</a>
+        <a href="../HTML/Instituição.html">INSTITUIÇÃO</a>
+        <a href="../HTML/Atividades.html">ATIVIDADES</a>
+        <a href="../HTML/Doações.html">DOAÇÕES</a>
+    </div>
 
-            <a href="../HTML/Doações.html">DOAÇÕES</a>
-        </div>
+    <div class="help">
+        <a href="" class="helpB">AJUDE-NOS</a>
+    </div>
 
-        <div class="help">
-            <a href="" class="helpB">AJUDE-NOS</a>
-        </div>
+    <!-- BOTÃO PARA O MOBILE -->
+    <div class="hamburguer" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+</header>
+<hr>
 
-        <!--BOTÃO PARA O MOBILE-->
+<main>
+    <div class="banner">
+        <img src="../Imagens/InstituiçãoBanner.jpg" alt="Banner da Instituição" class="bannerImage" width="100%">
+        <h3 class="titleB">REDE LIGA DO BEM</h3>
+    </div>
 
-        <div class="hamburguer" onclick="myFunction(this)">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-        </div>
-    </header>
-    <hr>
+    <section class="titulo">
+        <h1>Contato</h1>
+        <p>Deseja entrar em contato com nossa empresa? <br> 
+           Envie sua mensagem!</p>
+     </section>
 
-    <main>
-        <div class="banner">
-            <img src="../Imagens/InstituiçãoBanner.jpg" alt="Banner da Instituição" class="bannerImage" width="100%">
-            <h3 class="titleB">REDE LIGA DO BEM</h3>
-        </div>
-
-        <div class="MVV" id="#MVV">
-            <div class="Missão">
-                <h3>MISSÃO</h3>
-                <p>Lorem ipsum </p>
+    <section class="formulario">
+        <section class="contato">
+            <div class="silvana">
+                <h5>Silvana Melo</h5>
+                <p>Secretaria</p>
+                    <div>
+                        <img src="../Imagens/mail.svg" alt="iconMail">
+                        <p>emailsilvana@gmail.com</p>
+                    </div>
             </div>
-
-            <div class="Visão">
-                <h3>VISÃO</h3>
-                <p>Lorem ipsum </p>
-            </div>
-
-            <div class="Valor">
-                <h3>VALORES</h3>
-                <p>Lorem ipsum</p>
-            </div>
-        </div>
-
-        <section class="titulo">
-            <h1>
-            CONTATO
-            </h1>
-            
-            <p>
-                loremmmmmmm
-                <br>
-                loremm
-            </p>
         </section>
 
-        <section class="formulario">
-            <section class="contato"> 
-                <div class="silvana">
-                    <h5>Silvana Melo</h5>
-                    <p>Secretaria</p>
-                </div>
-
-                <div>
-                    <img src="" alt="">
-                    <p>
-                        emailsilvana@gmail.com
-                    </p>
-                </div>
-
         <form id="Formulario" class="forms">
-            <div class="inputs"> 
+            <div class="inputs">
+                <img src="../Imagens/user.svg" alt="">
                 <input type="text" id="inputNome">
                 <label for="inputNome" class="label-input">Nome</label>
             </div>
-            <div class="inputs"> 
+            <div class="inputs">
+                <img src="../Imagens/mail.svg" alt="">
                 <input type="text" id="inputEmail">
-                <label for="inputNome" class="label-input">Email</label>
+                <label for="inputEmail" class="label-input">Email</label>
             </div>
-            <div class="inputs"> 
+            <div class="inputs">
+                <img src="../Imagens/phone.svg" alt="">
                 <input type="text" id="inputTel">
-                <label for="inputNome" class="label-input">Telefone</label>
+                <label for="inputTel" class="label-input">Telefone</label>
             </div>
-            <div class="inputs"> 
+            <div class="inputs">
                 <textarea name="message" id="inputTxt" cols="100" rows="10" placeholder="Digite sua mensagem..."></textarea>
             </div>
-            <button type="submit">Enviar</button>                       
+            <button type="submit">Enviar</button>
         </form>
-            </section>
-        </section>
-       
-    </main>
-
+    </section>
+</main>
     <hr>
     <footer>
         <div class="LogoSpaceF">
-            <a href="../index.html"><img src="../Imagens/LogoVBranca.png" alt="Logo Branca" class="Logof"></a>
+            <a href="../index.html"><img src="../Imagens/LogoVBranca.png" class="Logof"></a>
         </div>
         <div class="textF">
             <p>A instituição Rede Liga do Bem surgiu através da vontade de criar um espaço seguro, solidário 
@@ -121,21 +93,20 @@
 
         <div class="buttonsF">
             <div class="fdiv">
-                <p class="titleF"><a href="../HTML/Instituição.html">Instituição</a></p><br>
-                <p class="othersF"><a href="">Sobre</a></p> 
-                <p class="othersF"><a href="">MVV</a></p>
-                <p class="othersF"><a href="">Membros</a></p>
+                <p class="titleF"><a href="./Instituição.html">Instituição</a></p><br>
+                <p class="othersF">Sobre</p> 
+                <p class="othersF">MVV</p>
+                <p class="othersF">Membros</p>
             </div>
-    
             <div class="fdiv">
-                <p class="titleF"><a href="../HTML/Atividades.html">Atividades</a></p><br>
+                <p class="titleF"><a href="./Atividades.html">Atividades</a></p><br>
                 <p class="othersF">Como funciona</p>
                 <p class="othersF">Horários</p>
                 <p class="othersF">Atividades</p>
             </div>
     
             <div class="fdiv">
-                <p class="titleF"><a href="../HTML/doações.html">Doações</a></p><br>
+                <p class="titleF"><a href="./doações.html">Doações</a></p><br>
                 <p class="othersF">Como funciona</p>
                 <p class="othersF">Formas</p>
                 <p class="othersF">Para que fins</p>
@@ -143,12 +114,12 @@
     
             <div class="fdiv">
                 <p class="titleF">Contato</p><br>
-                <p class="numero">(11)9XXXX-XXXX</p>
-                <p>G-mail</p>
+                <p class="numero">+55 11 98048-5370</p>
+                <p class="contato">contatoredeligado<br>bem@gmail.com</a></p>
             </div>
     
             <div class="fdiv">
-                <p class="titleF"><a href="">Ajude-nos</a></p><br>
+                <p class="titleF">Ajude-nos</p><br>
                 <p class="othersF">Como funciona</p>
                 <p class="othersF">Torne-se um apoiador</p>
             </div>
@@ -156,9 +127,9 @@
             <div class="fdiv">
                 <p class="titleF">Redes sociais</p>
                 
-            <ul>
+            <ul class="u">
              <a href="https://www.instagram.com/redeligadobem?igsh=MXdjbzh2Ng==qYndzZ2t">
-                <li>
+                <li class="l">
                        <span class="icone"><i class="bi bi-instagram"></i></span>
                        <span class="texto">redeligadobem</span>
                 </li>
@@ -174,6 +145,6 @@
     </footer>
 
 
-    <script src="../JS/Faleconosco.js"></script>
+    <script src="../JS/Inicio.js"></script>
 </body>
 </html>
