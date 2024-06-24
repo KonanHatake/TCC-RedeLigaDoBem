@@ -1,13 +1,11 @@
 .cards
 {
+    align-items: center;
     display: flex;
     justify-content: space-around;
-    max-height: 50vh;
     height: 50vh;
-    min-height: 10vh;
     padding: 20px;
     flex-wrap: wrap;
-    overflow: hidden;
 }
 
 .cards h3
@@ -24,20 +22,44 @@
     align-items: center;
     width: 300px;
     height: 350px;
-    box-shadow: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
     transform: scale(1);
     transition: all 0.5s;
 }
 
 .card:hover
 {
-    transform: scale(1.01);
-    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
-    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
-    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
+    transform: scale(1.03);
+    -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.50);
+    -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.50);
+    box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.50);
 }
 
 .card img
 {
     background-position: center;
+}
+
+.card .InstituiçãoText
+{
+    color: #0096B6;
+}
+
+.card .AtividadesText
+{
+    color: #f5cc18;
+}
+
+.card .DoaçõesText
+{
+    color: #e21818;
+}
+
+.card .FaleConoscoText
+{
+    color: #ec6c22;
 }

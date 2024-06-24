@@ -37,8 +37,8 @@
     -moz-border-radius: 50px;
     border-radius: 50px;
     border: none;
-    background-color: #0096B6;
-    color: white;
+    background-color: #fff;
+    color: #eec71c;
     font-family: NexaFont;
     font-weight: bold;
 }
@@ -49,7 +49,7 @@ header
     display: flex;
     justify-content: space-between;
     scroll-behavior: smooth;
-    background: linear-gradient(rgb(248, 247, 247), rgb(255, 255, 255) 90%,  rgb(238, 237, 237) );
+    background: linear-gradient(#ffe23b, #eec71c 90%,  #dfac06);
 }
 
 header .hamburguer, header .overlay
