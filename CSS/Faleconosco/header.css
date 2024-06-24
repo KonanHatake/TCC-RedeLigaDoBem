@@ -12,7 +12,14 @@
     padding: 50px 0px;
     font-family: NexaFont;
     font-weight: bold;
+    color: white;
 }
+
+.buttonsH a
+{
+    color: white;
+}
+
 
 .help 
 {
@@ -37,7 +44,7 @@ header
     display: flex;
     justify-content: space-between;
     scroll-behavior: smooth;
-    background: linear-gradient(rgb(29, 191, 4), #50b936 90%, rgb(44, 165, 28));;
+    background: linear-gradient(rgb(242, 92, 4), #e0610d 90%, rgb(224, 125, 11));
     color: white;
 }
 

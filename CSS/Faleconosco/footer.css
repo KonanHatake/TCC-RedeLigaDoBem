@@ -70,6 +70,11 @@
     flex-direction: row;
 }
 
+.buttonsF a
+{
+    color: white;
+}
+
 ul{
     list-style-type: none;
     display: flex;
@@ -122,7 +127,8 @@ footer
     display: flex;
     flex-direction: column;
     scroll-behavior: smooth;
-    background: linear-gradient(rgb(29, 191, 4), #50b936 90%, rgb(44, 165, 28)) ;
+    background: linear-gradient(rgb(242, 92, 4), #e0610d 90%, rgb(224, 125, 11));
+    ;
     color: white;
     text-decoration: none;
 }

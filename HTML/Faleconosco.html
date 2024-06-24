@@ -34,14 +34,10 @@
 </header>
 <hr>
 
-<main>
-    <div class="banner">
-        <img src="../Imagens/InstituiçãoBanner.jpg" alt="Banner da Instituição" class="bannerImage" width="100%">
-        <h3 class="titleB">REDE LIGA DO BEM</h3>
-    </div>
+<main id="menzinho">
 
     <section class="titulo">
-        <h1>Contato</h1>
+        <h1>Fale conosco!</h1>
         <p>Deseja entrar em contato com nossa empresa? <br> 
            Envie sua mensagem!</p>
      </section>
@@ -51,31 +47,39 @@
             <div class="silvana">
                 <h5>Silvana Melo</h5>
                 <p>Secretaria</p>
-                    <div>
-                        <img src="../Imagens/mail.svg" alt="iconMail">
-                        <p>emailsilvana@gmail.com</p>
+                    <div class="icone">
+                        <img src="../Imagens/email.png" alt="">
+                        <p class="email">emailsilvana@gmail.com</p>
+                    </div>
+                    <div class="icone">
+                        <img src="../Imagens/.png" alt="">
+                        <p class="instagram">@redeligadobem</p>
+                    </div>
+                    <div class="icone">
+                        <img src="../Imagens/.png" alt="">
+                        <p class="email">Whatsapp</p>
                     </div>
             </div>
         </section>
 
         <form id="Formulario" class="forms">
             <div class="inputs">
-                <img src="../Imagens/user.svg" alt="">
-                <input type="text" id="inputNome">
+                <img src="../Imagens/perfil.png" alt="">
+                <input type="text" id="inputNome" required>
                 <label for="inputNome" class="label-input">Nome</label>
             </div>
             <div class="inputs">
-                <img src="../Imagens/mail.svg" alt="">
-                <input type="text" id="inputEmail">
+                <img src="../Imagens/email.png" alt="">
+                <input type="text" id="inputEmail" required>
                 <label for="inputEmail" class="label-input">Email</label>
             </div>
             <div class="inputs">
-                <img src="../Imagens/phone.svg" alt="">
-                <input type="text" id="inputTel">
-                <label for="inputTel" class="label-input">Telefone</label>
+                <img src="../Imagens/sujeito.png" alt="">
+                <input type="text" id="inputTel" required>
+                <label for="inputTel" class="label-input">Assunto</label>
             </div>
             <div class="inputs">
-                <textarea name="message" id="inputTxt" cols="100" rows="10" placeholder="Digite sua mensagem..."></textarea>
+                <textarea name="message" id="inputTxt" cols="100" rows="10" placeholder="Digite sua mensagem..."required></textarea>
             </div>
             <button type="submit">Enviar</button>
         </form>
@@ -144,7 +148,6 @@
         </div>
     </footer>
 
-
-    <script src="../JS/Inicio.js"></script>
+    <script src="../JS/Inicio.js"></script>    
 </body>
 </html>

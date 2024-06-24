@@ -1,5 +1,5 @@
-main .titulo {
-    color: brown;
+main .titulo{
+    color: rgb(242, 92, 4);
     height: 30vh;
     max-width: 90%;
     margin: 0 auto;
@@ -9,11 +9,14 @@ main .titulo {
     align-items: center;
     row-gap: 2.5rem;
     text-align: center;
+    font-family: NexaFont;
+    font-weight: bold;
  }
- 
- main .titulo h1 {
-    font-size: 2rem;
+
+ main .titulo h1{
+    font-size: 1.9rem;
     font-weight: 400;
+    font-weight: bold;
  }
  
  /* CONTADO DOS SOCIOS */
@@ -24,6 +27,7 @@ main .titulo {
     padding: 30px;
     display: grid;
     grid-template-columns: 1fr 2fr;
+    font-family: CocoGothicFont;
  }
  
  .formulario .contato {
@@ -40,12 +44,21 @@ main .titulo {
  .contato .silvana h5 {
     font-size: 1.05rem;
     font-weight: 600;
-    color: brown;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font: weight 800px;
  }
  
  .contato .silvana > p {
     font-size: .9rem;
-    color: brown;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    
+ }
+ 
+ .icone 
+ {
+   font-family: NexaFont;
  }
  
  .silvana > div {
@@ -54,19 +67,23 @@ main .titulo {
     column-gap: 7px;
  }
  
+ .email
+ {
+   color: #dd9b21;
+ }
+
  .silvana > div img {
     width: 23px;
  }
  
  .silvana div > p {
     font-size: .9rem;
-    color: var(--corMarromClara);
+    color: rgb(242, 92, 4);
  }
  
  /* FORMULARIO DE CONTATO */
  
  .formulario .forms {
-    display: flex;
     align-items: center;
     flex-direction: column;
     max-width: 100%;
@@ -87,7 +104,7 @@ main .titulo {
  
  .forms .inputs input {
     border: none;
-    border: 1px solid brown;
+    border: 1px solid rgb(242, 92, 4);
     padding: 10px 13px;
     width: 100%;
     font-size: .9rem;
@@ -95,11 +112,11 @@ main .titulo {
  }
  
  .forms .inputs input::placeholder {
-    color: brown;
+    color: rgb(242, 92, 4);
  }
  
  .forms .inputs label {
-    color: #a87b4da0;
+    color: rgb(242, 92, 4);
     background-color: #Fff;
     border-radius: 2px;
     font-size: .9rem;
@@ -113,18 +130,18 @@ main .titulo {
  
  .inputs input:focus ~ label {
     background-color: #f0f0f0;
-    color: brown;
+    color: rgb(242, 92, 4);
  }
  
  .forms .inputs input:focus-visible {
     outline: none;
-    border-bottom: 1px solid brown;
+    border-bottom: 1px solid rgb(242, 92, 4);
     background-color: #f0f0f0;
  }
  
  .forms .inputs textarea {
     border: none;
-    border: 1px solid brown;
+    border: 1px solid rgb(242, 92, 4);
     padding: 10px;
     width: 100%;
     font-size: 1rem;
@@ -133,14 +150,14 @@ main .titulo {
  }
  
  .forms .inputs textarea::placeholder {
-    color: brown;
+    color: rgb(242, 92, 4);
     letter-spacing: 1px;
  }
  
  .forms textarea:focus-visible {
     outline: none;
-    border-bottom: 1px solid brown;
-    background-color: #f0f0f0;
+    border-bottom: 1px solid rgb(242, 92, 4);
+    background-color: #fffefe;
  }
  
  .forms button[type="submit"] {
@@ -150,22 +167,34 @@ main .titulo {
     border-radius: 5px;
     letter-spacing: 1px;
     text-decoration: none;
-    color: brown;
+    color: rgb(242, 92, 4);
     background: transparent;
     cursor: pointer;
     transition: ease-out .4s;
-    border: 1px solid brown;
-    box-shadow: inset 0 0 0 0 #ac6b2f;
+    border: 1px solid rgb(242, 92, 4);
+    box-shadow: inset 0 0 0 0 #dd9b21;
  }
  
  .forms button[type="submit"]:hover {
     color: white;
-    box-shadow: inset 0 -100px 0 0 brown;
+    box-shadow: inset 0 -100px 0 0 rgb(242, 92, 4);
  }
  
  .forms .inputs .invalido {
     border: 1px solid red;
  }
+
+ .maisCtt
+ {
+   color: rgb(242, 92, 4);
+   height: 30vh;
+   max-width: 90%;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+
  
  /* MEDIA QUERRY */
  
