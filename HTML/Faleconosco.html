@@ -62,7 +62,7 @@
             </div>
         </section>
 
-        <form id="Formulario" class="forms">
+        <form id="Formulario" class="forms" onsubmit="enviarEmail(event)">
             <div class="inputs">
                 <img src="../Imagens/perfil.png" alt="">
                 <input type="text" id="inputNome" required>
@@ -148,6 +148,13 @@
         </div>
     </footer>
 
-    <script src="../JS/Inicio.js"></script>    
+    <script src="../JS/Inicio.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("KHrL_3iI0YxlK0NFH");
+        })();
+    </script>
+    <script src="../JS/Faleconosco.js"></script>   
 </body>
 </html>
