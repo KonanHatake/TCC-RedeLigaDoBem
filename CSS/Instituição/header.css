@@ -1,5 +1,6 @@
 .logo
 {
+    width: 200px;
     padding: 15px;
 }
 
@@ -47,45 +48,3 @@ header .hamburguer
     display: none;
 }
 
-@media(max-width:360px)
-{
-    header .buttonsH, .help
-    {
-        display: none;
-    }
-
-    header .logo
-    {
-        transform: scale(0.85);
-    }
-
-    header .hamburguer 
-    {
-        display: inline-block;
-        padding: 38px 30px;
-    }
-      
-    .bar1, .bar2, .bar3 
-    {
-        width: 35px;
-        height: 5px;
-        background-color: #0096B6;
-        margin: 6px 0;
-        transition: 0.4s;
-    }
-      
-    .change .bar1 
-    {
-        transform: translate(0, 11px) rotate(-45deg);
-    }
-      
-    .change .bar2 
-    {
-        opacity: 0;
-    }
-      
-    .change .bar3 
-    {
-        transform: translate(0, -11px) rotate(45deg);
-    }
-}   

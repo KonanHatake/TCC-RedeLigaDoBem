@@ -1,0 +1,107 @@
+
+
+.logo
+{
+    width: 200px;
+    padding: 15px;
+}
+
+.buttonsH
+{
+    width: 422px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 50px 0px;
+    font-family: BukraFont;
+}
+
+.buttonH
+{
+    border: none;
+    background-color: transparent;
+    font-family: BukraFont;
+
+}
+
+.help 
+{
+    padding: 45px;
+}
+
+.helpB
+{
+    padding: 10px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: #ffffff;
+    color:  rgb(242,188,27);
+    font-family: BukraFont;
+}
+
+header
+{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    scroll-behavior: smooth;
+    background: rgb(242,188,27);
+    background: linear-gradient(180deg, rgba(242,188,27,1) 59%, rgba(224,168,0,1) 100%);
+    font-size: 14px;
+}
+
+header .hamburguer
+{
+    display: none;
+}
+
+@media(max-width:360px)
+{
+    header .buttonsH, .help
+    {
+        display: none;
+    }
+
+    header .logo
+    {
+        transform: scale(0.85);
+    }
+
+    header .hamburguer 
+    {
+        display: inline-block;
+        padding: 38px 30px;
+    }
+      
+    .bar1, .bar2, .bar3 
+    {
+        width: 35px;
+        height: 5px;
+        background-color: #0096B6;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+      
+    .change .bar1 
+    {
+        transform: translate(0, 11px) rotate(-45deg);
+    }
+      
+    .change .bar2 
+    {
+        opacity: 0;
+    }
+      
+    .change .bar3 
+    {
+        transform: translate(0, -11px) rotate(45deg);
+    }
+}
+
+.texto1
+{
+    color: black;
+    font-family: CocoGothicFont ;
+}

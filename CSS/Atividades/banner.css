@@ -1,9 +1,47 @@
+<<<<<<< Updated upstream
 .banner
 {
     position: relative;
     text-align: center;
     color: white;
-    font-size: 30px;
+}
+
+.bannerImagem
+{
+    background-position: cover;
+    background-size: center;
+    height: 68vh;
+    
+}
+
+.letraA
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: BukraFont;
+    font-size: 40px;
+}
+
+.letraB
+{
+    color: black;
+    font-family: BukraFont;
+    font-size: 40px;
+    text-align: center;
+    margin: 30px;
+
+}
+
+=======
+.banner
+{
+    position: relative;
+    text-align: center;
+    color: white;
+    
 }
 
 .bannerImage
@@ -11,6 +49,7 @@
     background-size: cover;
     background-position: center;
     height: 68vh;
+    
 }
 
 .titleB
@@ -19,10 +58,9 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: white;
     font-family: NexaFont;
     font-size: 40px;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
-    color: #fff; 
 }
 
 .subtitleB
@@ -53,29 +91,4 @@
     font-family: NexaFont;
     font-weight: bold;
 }
-
-.texto1 {
-   color: #02313b;
-text-align: justify;
-    text-align: center;
-    font-family: CocoGothicFont;
-    font-size: 20px;
-    text-shadow: #02313b;
-    padding-left: 19%;
-    padding-right: 19%;
-
-}
-
-.titulo1 {
-    padding-top: 4%;
-    padding-bottom: 2%;
-    font-family: NexaFont;
-    font-weight: bold;
-    font-size: 35px;
-}
-
-
-
-  
-
-  
+>>>>>>> Stashed changes

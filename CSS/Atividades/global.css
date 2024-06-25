@@ -1,21 +1,15 @@
-@import url(./header.css);
-@import url(./banner.css);
-@import url(./footer.css);
-@import url(./conteudo.css);
-@import url(./responsivo.css);
+@import url(../Atividades/banner.css);
+@import url(../Atividades/header.css);
+@import url(../Atividades/cards.css);
+@import url(../Atividades/gallery.css);
+@import url(../Atividades/relatos.css);
+@import url(../Atividades/footer.css);
+@import url(../Atividades);
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 @font-face 
 {
-    font-family: NexaFont;
-    src: url(../Fonts/Nexa-Heavy.ttf);
-    font-weight: bold;
-}
-
-@font-face 
-{
-    font-family: NexaFont;
-    src: url(../Fonts/Nexa-ExtraLight.ttf);
-    font-weight: lighter;
+    font-family: BukraFont;
+    src: url(../Fonts/29LTBukraBold.otf);
 }
 @font-face 
 {
@@ -40,7 +34,12 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
-    color: white;
+    color: #ffffff;
+}
+
+hr
+{
+    color: #0096B6;
 }
 
 html {
