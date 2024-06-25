@@ -1,0 +1,269 @@
+/*Texto da página*/
+.TI{
+    display: flex;
+    justify-content: center;
+}
+.textoInicial{
+    height: 49vh;
+    width: 160vh;
+}
+.tituloInicial,.paragrafoInicial{
+    text-align: center;
+    padding-top: 10px;
+}
+.tituloInicial{
+    color: #cc1a1a;
+    font-family: NexaFont;
+    font-size: 40px;
+    font-weight: bold;
+}
+.paragrafoInicial{
+    color: black;
+    font-family: CocoGothicFont;
+    font-size: 24px;
+}
+/*Texto da página*/
+
+/*área dos botões*/
+.bloco{
+    margin: auto;
+    width: 900px;
+    height: 300px;
+    margin-bottom: 4%;
+    display: flex;
+}
+.caixa1{
+    width: 350px;
+    height: 300px;
+    background: linear-gradient(rgb(250, 29, 29), #da1919 90%);
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    border-radius: 6px 0px 0px 6px;
+}
+.caixa2{
+    width: 550px;
+    height: 298px;
+    background: linear-gradient(rgb(255, 253, 253), rgb(255, 255, 255) 90%,  rgb(238, 237, 237) );
+    border-radius: 0px 6px 6px 0px;
+    border: 1px rgb(156, 119, 119) solid;
+}
+.formas{
+    margin: auto;
+    font-family: NexaFont;
+    font-size: 27px;
+    font-weight: bolder;
+}
+.a,.b,.c{
+    width: 250px;
+    height: 50px;
+    background-color:white;
+    color: #da1919;
+    margin: auto;
+    font-family: CocoGothicFont;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+    border: 2px white solid;
+    border-radius: 60px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.a:hover{
+    background-color:#da1919;
+    color: white;
+}
+.b:hover{
+    background-color:#da1919;
+    color: white;
+}
+.c:hover{
+    background-color:#da1919;
+    color: white;
+}
+
+.A{
+    width: 548px;
+    height: 297px;
+    background: linear-gradient(rgb(248, 247, 247), rgb(255, 255, 255) 90%,  rgb(238, 237, 237) );
+    border-radius: 0px 6px 6px 0px;
+    border: 0.5px rgb(156, 119, 119) solid;
+    display: none;
+    position: absolute;
+}
+.B{
+    width: 548px;
+    height: 297px;
+    background: linear-gradient(rgb(248, 247, 247), rgb(255, 255, 255) 90%,  rgb(238, 237, 237) );
+    border-radius: 0px 6px 6px 0px;
+    border: 0.5x rgb(156, 119, 119) solid;
+    display: none;
+    position: absolute;
+}
+
+.C{
+    width: 548px;
+    height: 297px;
+    background: linear-gradient(rgb(248, 247, 247), rgb(255, 255, 255) 90%,  rgb(238, 237, 237) );
+    border-radius: 0px 6px 6px 0px;
+    border: 0.5px rgb(156, 119, 119) solid;
+    display: none;
+    position: absolute;
+}
+/*área dos botões*/
+
+/*conteúdo dos botões*/
+.Image{
+    position: absolute;
+}
+.botoesIMG{
+    width: 550px;
+    height: 298px;
+}
+.botoesIMG2{
+    display: none;
+}
+.tudo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.FormasD{
+    width: 270px;
+    height: 100px;
+    text-align: center;
+    padding-bottom: 110px;
+}
+.Nome,.Info{
+    color: black;
+    font-family: NexaFont;
+}
+.Nome{
+    font-weight: bold;
+    font-size: 33px;
+}
+.Info{
+    font-weight: bold;
+    font-size: 20px;
+}
+.Code{
+    width: 170px;
+    height: 298px;
+}
+.QRcode{
+    width: 180px;
+    height: 180px;
+    padding-top: 65px;
+    padding-right: 20px;
+}
+.tudoB{
+    text-align: center;
+    padding-top: 10px;
+}
+.NomeB,.InfoB{
+    color: black;
+    font-family: NexaFont;
+}
+.NomeB{
+    font-weight: bold;
+    font-size: 22px;
+}
+.InfoB{
+    font-weight: bold;
+    font-size: 18px;
+}
+.FormasB{
+    color:#da1919;
+    font-weight: bold;
+    font-size: 29px;
+    font-family: NexaFont;
+}
+
+.tudoC{
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    width: 500px;
+}
+.NomeC,.InfoC,.FormasC{
+    color: black;
+    font-family: NexaFont;
+}
+.NomeC{
+    font-weight: bold;
+    font-size: 22px;
+}
+.InfoC{
+    font-weight: bold;
+    font-size: 18px;
+}
+.FormasC{
+    font-weight: bold;
+    font-size: 29px;
+}
+.e-mail{
+    color:#da1919;
+}
+/*conteúdo dos botões*/
+
+/*O poder da sua doação*/
+.tituloD{
+    display: flex;
+    justify-content: center;
+}
+.tituloCD{
+    background-color: #da1919;
+    color: white;
+    border-radius: 6px;
+    width: 300px;
+    font-family: NexaFont;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2%;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+.textoL,.textoR{
+    width: 350px;
+    height: 125vh;
+}
+.textoL{
+    text-align: end;
+}
+.p2,.p22,.p222,.p1,.p11{
+    color: black;
+    font-family: CocoGothicFont;
+    font-size: 22px;
+}
+.P2,.P22,.P222,.P1,.P11{
+    color: #da1919;
+    font-family: NexaFont;
+    font-size: 24px;
+    font-weight: bold;
+}
+.P2{
+    margin-top: 50px;
+}
+.P22{
+    margin-top: 170px;
+}
+.P222{
+    margin-top: 140px;
+}
+.P1{
+    margin-top: 200px;
+}
+.P11{
+    margin-top: 160px;
+}
+.CaminhoDoacao{
+    width: 28vh;
+    height: 125vh;
+}
+/*O poder da sua doação*/

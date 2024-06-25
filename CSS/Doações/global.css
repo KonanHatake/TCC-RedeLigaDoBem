@@ -1,0 +1,48 @@
+@import url(./header.css);
+@import url(./banner.css);
+@import url(./conteudo.css);
+@import url(./footer.css);
+@import url(./responsivo.css);
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@font-face 
+{
+    font-family: NexaFont;
+    src: url(../Fonts/Nexa-Heavy.ttf);
+    font-weight: bold;
+}
+
+@font-face 
+{
+    font-family: NexaFont;
+    src: url(../Fonts/Nexa-ExtraLight.ttf);
+    font-weight: lighter;
+}
+@font-face 
+{
+    font-family: CocoGothicFont;
+    src: url(../Fonts/CocoGothic_trial.ttf);
+    font-weight: bold;
+}
+@font-face 
+{
+    font-family: CocoGothicFont;
+    src: url(../Fonts/CocoGothic-UltraLight_trial.ttf);
+    font-weight: lighter;
+}
+@font-face 
+{
+    font-family: CocoGothicFont;
+    src: url(../Fonts/CocoGothic-Light_trial.ttf);
+}
+
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+  }

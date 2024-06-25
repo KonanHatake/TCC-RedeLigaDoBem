@@ -1,0 +1,264 @@
+@media(max-width: 450px)
+{
+    /*Texto da página e banner*/
+    .bannerImage
+    {
+        height: 26vh;
+    }
+    .titleB{
+        font-size: 17px;
+    }
+
+    .tituloInicial,.paragrafoInicial{
+        padding-top: 0px;
+    }
+    .textoInicial{
+        height: 30vh;
+        width: 48vh;
+        padding: 10px;
+    }
+    .tituloInicial{
+        font-size: 16px;
+    }
+    .paragrafoInicial{
+        font-size: 10px;
+    }
+     /*Texto da página e banner*/
+
+     /*área dos botões*/
+.bloco{
+        width: 210px;
+        height: 350px;
+        display: flex;
+        align-items: center;
+        flex-direction:column;
+}
+.caixa1{
+    width: 210px;
+    height: 150px;
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    border-radius: 6px 6px 0px 0px;
+}
+.caixa2{
+    width: 208px;
+    height: 190px;
+    border-radius: 0px 0px 6px 6px;
+}
+.formas{
+    margin: auto;
+    font-family: NexaFont;
+    font-size: 17px;
+    font-weight: bolder;
+}
+.a,.b,.c{
+    width: 180px;
+    height: 30px;
+    font-size: 12px;
+}
+.A{
+    width: 208px;
+    height: 190px;
+    border-radius: 0px 0px 6px 6px;
+    display: none;
+    position: absolute;
+}
+.B{
+    width: 208px;
+    height: 190px;
+    border-radius: 0px 0px 6px 6px;
+    display: none;
+    position: absolute;
+}
+
+.C{
+    width: 208px;
+    height: 190px;
+    border-radius: 0px 0px 6px 6px;
+    display: none;
+    position: absolute;
+}
+.botoesIMG{
+    display: none;
+}
+.botoesIMG2{
+    display:block;
+    width: 208px;
+    height: 190px;
+}
+/*área dos botões*/
+
+/*conteúdo dos botões*/
+.tudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.FormasD{
+    width: 270px;
+    height: 70px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.Nome{
+    font-size: 14px;
+}
+.Info{
+    font-size: 12px;
+}
+.Code{
+    width: 0px;
+    height: 0px;
+    display: flex;
+    justify-content: center;
+}
+.QRcode{
+    width: 90px;
+    height: 90px;
+    padding-top: 0px;
+    padding-right: 0px;
+}
+
+.tudoB{
+    text-align: center;
+    padding-top: 15px;
+}
+.NomeB{
+    font-size: 12px;
+}
+.InfoB{
+    font-size: 10px;
+}
+.FormasB{
+    font-size: 18px;
+}
+
+.tudoC{
+    margin: auto;
+    text-align: center;
+    padding-top: 0px;
+    width: 208px;
+}
+.NomeC{
+    font-size: 12px;
+}
+.InfoC{
+    font-size: 10px;
+}
+.FormasC{
+    font-size: 17px;
+}
+.tituloCD{
+    width: 230px;
+    font-size: 18px;
+    margin-bottom: 2%;
+}
+/*conteúdo dos botões*/
+
+/*O poder da sua doação*/
+.textoL,.textoR{
+    width: 90px;
+    height: 40vh;
+}
+.p2,.p22,.p222,.p1,.p11{
+    font-size: 10px;
+}
+.P2,.P22,.P222,.P1,.P11{
+    font-size: 10px;
+}
+.P2{
+    margin-top: 24px;
+}
+.P22{
+    margin-top: 90px;
+}
+.P222{
+    margin-top: 80px;
+}
+.P1{
+    margin-top: 120px;
+}
+.P11{
+    margin-top: 90px;
+}
+.CaminhoDoacao{
+    width: 23vh;
+    height: 95vh;
+}
+/*O poder da sua doação*/
+
+/*footer*/
+.Logof{
+    display: none;
+}
+.copy
+{
+    font-size: 9px;
+    padding: 0px;
+}
+.copyrightF
+{
+    padding-bottom: 10px;
+}
+.textF{
+    display: none;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+    height: 160px;
+}
+.fdiv{
+    padding: 0px;
+    height: 20px;
+}
+.titleF{
+    font-size: 14px;
+    width: 100px;
+}
+.othersF{
+    display: none;
+}
+.numero{
+    display: none;
+}
+.contato{
+    display: none;
+}
+.buttonsF
+{
+    margin: auto;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.u{
+    padding-top: 0px;
+}
+#None{
+    display: none;
+}
+.u .l{
+    width: 20px;
+    height: 20px;
+}
+.u .l:hover{
+    height: 18px;
+    width: 100px;
+}
+.u .l .icone{
+    font-size: 12px;
+    transition: .2s;
+}
+
+.u .l .texto{
+    transform: scale(0);
+    transition: .2s;
+    font-size: 12px;
+}
+
+}
