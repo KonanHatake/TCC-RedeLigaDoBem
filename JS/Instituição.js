@@ -1,35 +1,56 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const teamContainer = document.querySelector('.team-container');
+document.addEventListener('DOMContentLoaded', function () {
+    const carousel = document.querySelector('.carousel');
     const cards = document.querySelectorAll('.card');
-    const prevBtn = document.querySelector('.prev');
-    const nextBtn = document.querySelector('.next');
-    const cardWidth = cards[0].offsetWidth + 20; // Largura do card + gap
-    const numCards = cards.length;
-    let index = 0;
+    const leftArrow = document.querySelector('.left-arrow');
+    const rightArrow = document.querySelector('.right-arrow');
+    let currentIndex = 0;
 
-    function moveCarousel() {
-        const offset = -index * cardWidth;
-        teamContainer.style.transform = `translateX(${offset}px)`;
+    function updateCarousel() {
+        const cardWidth = cards[0].offsetWidth;
+        const carouselWidth = carousel.offsetWidth;
+        const offset = (carouselWidth - cardWidth) / 2;
+        carousel.style.transition = 'transform 0.5s ease';
+        carousel.style.transform = `translateX(calc(${offset}px - ${currentIndex * cardWidth}px))`;
+
+        cards.forEach((card, index) => {
+            card.style.opacity = (index === currentIndex) ? '1' : '0.5';
+        });
     }
 
-    function nextSlide() {
-        index++;
-        if (index > numCards - 1) {
-            index = 0;
+    function jumpToCard(index) {
+        const cardWidth = cards[0].offsetWidth;
+        const carouselWidth = carousel.offsetWidth;
+        const offset = (carouselWidth - cardWidth) / 2;
+        carousel.style.transition = 'none';
+        carousel.style.transform = `translateX(calc(${offset}px - ${index * cardWidth}px))`;
+    }
+
+    leftArrow.addEventListener('click', () => {
+        if (currentIndex === 0) {
+            currentIndex = cards.length - 1;
+            jumpToCard(currentIndex);
+            setTimeout(() => {
+                updateCarousel();
+            }, 50);
+        } else {
+            currentIndex--;
+            updateCarousel();
         }
-        moveCarousel();
-    }
+    });
 
-    function prevSlide() {
-        index--;
-        if (index < 0) {
-            index = numCards - 1;
+    rightArrow.addEventListener('click', () => {
+        if (currentIndex === cards.length - 1) {
+            currentIndex = 0;
+            jumpToCard(currentIndex);
+            setTimeout(() => {
+                updateCarousel();
+            }, 50);
+        } else {
+            currentIndex++;
+            updateCarousel();
         }
-        moveCarousel();
-    }
+    });
 
-    // Adiciona eventos de clique para as setas de navegação
-    prevBtn.addEventListener('click', prevSlide);
-    nextBtn.addEventListener('click', nextSlide);
+    updateCarousel();
 });
 

@@ -87,27 +87,35 @@
     padding-bottom: 15px;
 }
 
-.team-container {
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel {
     display: flex;
+    transition: transform 0.5s ease;
+}
+
+.cardparticipantes {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
     justify-content: center;
-    gap: 20px;
-    padding: 20px;
-    background-color: #ffffff;
 }
 
 .card {
+    min-width: 200px;
+    flex: 0 0 auto;
     background-color: rgb(246, 246, 246);
     border-radius: 10px;
     padding: 20px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-    
-}
-
-.card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s, opacity 0.3s;
 }
 
 .card img {
@@ -125,11 +133,6 @@
     color: rgb(2, 5, 34);
 }
 
-.card:hover .nome {
-    color: #0096B6;
-    font-family: CocoGothicFont;
-}
-
 .card h3 {
     color: rgb(110, 109, 109);
     margin: 0 0 10px;
@@ -141,20 +144,27 @@
     font-family: CocoGothicFont;
 }
 
-.cardsobra{
-
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 50px;
-    background-color: #ffffff;
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
 }
 
-.numero{
-    font-family: 'Courier New', Courier, monospace;
-    color: #093c47;
-    display: inline;
+.left-arrow {
+    left: 10px;
 }
+
+.right-arrow {
+    right: 10px;
+}
+
+
 
 .empoderar{
     text-align: center;
@@ -163,4 +173,42 @@
     padding-left: 19%;
     padding-right: 19%;
     padding-top: 18px;
+    padding-bottom: 5%;
+}
+
+.trajetoria{
+    height: 132vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.trajetoriatitle{
+margin-top: 20px;
+    color: #072d35;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    font-family: NexaFont;
+}
+
+.timeline
+{
+    background-size: cover;
+    background-position: center;
+    height: 68vh;
+    display: block;
+}
+
+.celular{
+    display: none;
+}
+
+.numero{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    color: #072d35;
+    display: inline;
+    
 }
