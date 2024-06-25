@@ -1,24 +1,100 @@
-@media(max-width: 450px)
+@media(max-width: 360px)
 {
+    *
+    {
+        align-items: center;
+    }
+
+    /*Header*/
+    header .buttonsH, .help
+    {
+        display: none;
+    }
+
+    header .logo
+    {
+        padding: 0;
+        transform: scale(0.85);
+    }
+
+    header .hamburguer 
+    {
+        display: inline-block;
+        padding: 38px 30px;
+    }
+      
+    .bar1, .bar2, .bar3 
+    {
+        width: 35px;
+        height: 5px;
+        background-color: white;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+      
+    .change .bar1 
+    {
+        transform: translate(0, 11px) rotate(-45deg);
+    }
+      
+    .change .bar2 
+    {
+        opacity: 0;
+    }
+      
+    .change .bar3 
+    {
+        transform: translate(0, -11px) rotate(45deg);
+    }
+
+    .overlay 
+    {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.95);
+        z-index: 2;
+        padding-top: 60px; /* Ajuste conforme necessário */
+        box-sizing: border-box;
+    }
+
+    .overlay.active 
+    {
+        display: block; /* Mostra o overlay quando a classe 'active' é adicionada */
+    }
+
+    .overlay a 
+    {
+        display: block;
+        padding: 20px;
+        font-size: 18px;
+        color: #333;
+        text-decoration: none;
+        text-align: center;
+    }
+
     /*Texto da página e banner*/
     .bannerImage
     {
         height: 26vh;
     }
     .titleB{
-        font-size: 17px;
+        font-size: 22px;
     }
 
     .tituloInicial,.paragrafoInicial{
         padding-top: 0px;
     }
     .textoInicial{
-        height: 30vh;
+        height: 170px;
         width: 48vh;
-        padding: 10px;
+        padding: auto;
     }
     .tituloInicial{
-        font-size: 16px;
+        font-size: 20px;
     }
     .paragrafoInicial{
         font-size: 10px;
@@ -44,27 +120,29 @@
 .caixa2{
     width: 208px;
     height: 190px;
+    background-image: url(../Imagens/doacaoIMG2.png);
+    background-size:cover;
     border-radius: 0px 0px 6px 6px;
 }
 .formas{
     margin: auto;
     font-family: NexaFont;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: bolder;
 }
 .a,.b,.c{
     width: 180px;
     height: 30px;
-    font-size: 12px;
+    font-size: 16px;
 }
-.A{
+#A{
     width: 208px;
     height: 190px;
     border-radius: 0px 0px 6px 6px;
     display: none;
     position: absolute;
 }
-.B{
+#B{
     width: 208px;
     height: 190px;
     border-radius: 0px 0px 6px 6px;
@@ -72,20 +150,12 @@
     position: absolute;
 }
 
-.C{
+#C{
     width: 208px;
     height: 190px;
     border-radius: 0px 0px 6px 6px;
     display: none;
     position: absolute;
-}
-.botoesIMG{
-    display: none;
-}
-.botoesIMG2{
-    display:block;
-    width: 208px;
-    height: 190px;
 }
 /*área dos botões*/
 
@@ -114,6 +184,7 @@
     height: 0px;
     display: flex;
     justify-content: center;
+    padding-top: 50px;
 }
 .QRcode{
     width: 90px;
@@ -161,32 +232,33 @@
 /*O poder da sua doação*/
 .textoL,.textoR{
     width: 90px;
-    height: 40vh;
+    height: 85vh;
 }
 .p2,.p22,.p222,.p1,.p11{
     font-size: 10px;
+    font-weight: bold;
 }
 .P2,.P22,.P222,.P1,.P11{
     font-size: 10px;
 }
 .P2{
-    margin-top: 24px;
+    margin-top: 0px;
 }
 .P22{
-    margin-top: 90px;
+    margin-top: 85px;
 }
 .P222{
-    margin-top: 80px;
+    margin-top: 85px;
 }
 .P1{
-    margin-top: 120px;
+    margin-top: 100px;
 }
 .P11{
-    margin-top: 90px;
+    margin-top: 75px;
 }
 .CaminhoDoacao{
-    width: 23vh;
-    height: 95vh;
+    width: 20vh;
+    height: 92vh;
 }
 /*O poder da sua doação*/
 
@@ -201,7 +273,8 @@
 }
 .copyrightF
 {
-    padding-bottom: 10px;
+    padding: 0px;
+    padding-top: 10px;
 }
 .textF{
     display: none;
@@ -259,6 +332,9 @@ footer{
     transform: scale(0);
     transition: .2s;
     font-size: 12px;
+}
+#paginaInicial{
+    display: block;
 }
 
 }

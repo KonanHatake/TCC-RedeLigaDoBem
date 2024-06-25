@@ -44,7 +44,8 @@
 .caixa2{
     width: 550px;
     height: 298px;
-    background: linear-gradient(rgb(255, 253, 253), rgb(255, 255, 255) 90%,  rgb(238, 237, 237) );
+    background-image: url(../Imagens/botoesIMG.png);
+    background-size:cover;
     border-radius: 0px 6px 6px 0px;
     border: 1px rgb(156, 119, 119) solid;
 }
@@ -83,46 +84,36 @@
     color: white;
 }
 
-.A{
+#A{
     width: 548px;
-    height: 297px;
+    height: 298px;
     background: linear-gradient(rgb(248, 247, 247), rgb(255, 255, 255) 90%,  rgb(238, 237, 237) );
     border-radius: 0px 6px 6px 0px;
     border: 0.5px rgb(156, 119, 119) solid;
     display: none;
-    position: absolute;
 }
-.B{
+#B{
     width: 548px;
-    height: 297px;
+    height: 298px;
     background: linear-gradient(rgb(248, 247, 247), rgb(255, 255, 255) 90%,  rgb(238, 237, 237) );
     border-radius: 0px 6px 6px 0px;
     border: 0.5x rgb(156, 119, 119) solid;
     display: none;
-    position: absolute;
 }
 
-.C{
+#C{
     width: 548px;
-    height: 297px;
+    height: 298px;
     background: linear-gradient(rgb(248, 247, 247), rgb(255, 255, 255) 90%,  rgb(238, 237, 237) );
     border-radius: 0px 6px 6px 0px;
     border: 0.5px rgb(156, 119, 119) solid;
     display: none;
-    position: absolute;
 }
 /*área dos botões*/
 
 /*conteúdo dos botões*/
 .Image{
     position: absolute;
-}
-.botoesIMG{
-    width: 550px;
-    height: 298px;
-}
-.botoesIMG2{
-    display: none;
 }
 .tudo{
     display: flex;

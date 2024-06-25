@@ -44,12 +44,15 @@
     font-weight: bold;
 }
 
-
-
 header
 {
     display: flex;
     justify-content: space-between;
     scroll-behavior: smooth;
     background: linear-gradient(rgb(214, 24, 24), #bd1616 90%,  rgb(165, 28, 28));
+}
+
+header .hamburguer, header .overlay
+{
+    display: none;
 }

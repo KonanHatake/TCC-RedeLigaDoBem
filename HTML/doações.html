@@ -26,13 +26,30 @@
             <a href="" class="helpB">AJUDE-NOS</a>
         </div>
 
+         <!-- BOTÃO HAMBURGUER PARA O MOBILE -->
+         <div class="hamburguer" onclick="toggleMenu()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+        <!-- Botões do menu hamburguer -->
+        <div class="overlay" id="overlay">
+            <div class="close-button" onclick="toggleMenu()">×</div>
+            <a href="./index.html">INICIO</a>
+            <a href="./HTML/Instituição.html">INSTITUIÇÃO</a>
+            <a href="./HTML/Atividades.html">ATIVIDADES</a>
+            <a href="./HTML/doações.html">DOAÇÕES</a>
+        </div>
+
     </header>
+    <hr>
     <!--header-->
 
     <main>
          <!--banner-->
         <div class="banner">
-            <img src="../Imagens/InstituiçãoBanner.jpg" alt="Banner da Instituição" class="bannerImage" width="100%">
+            <img src="../Imagens/bannerFixo.jpg" alt="Banner da Instituição" class="bannerImage" width="100%">
             <h3 class="titleB">REDE LIGA DO BEM</h3>
         </div>
          <!--banner-->
@@ -58,20 +75,17 @@
          <div class="caixa1">
                 <span class="formas">Formas de doação</span>
 
-                <button onclick="showEhide()" class="a"> Dinheiro </button>
+                <button onclick="showDiv('dinheiroContent')" class="a"> Dinheiro </button>
 
-                <button onclick="showOrHide()" class="b"> Itens físicos </button>
+                <button onclick="showDiv('itensContent')" class="b"> Itens físicos </button>
 
-                <button onclick="showYhide()" class="c"> Outros </button>
+                <button onclick="showDiv('outrosContent')" class="c"> Outros </button>
          </div>
 
          <div id="caixa2" class="caixa2">
-            <div class="Image">
-                <img class="botoesIMG" src="../Imagens/9 Sem Título_20240622110859.png" alt="boneco doações">
-                <img class="botoesIMG2" src="../Imagens/doacaoIMG2.png" alt="boneco doações">
-            </div>
-           
-            <div id="A" class="A">
+            <div id="contentArea">
+
+            <div id="A" class="dinheiroContent content">
                 <div class="tudo">
                 <div class="FormasD">
                     <p class="Nome">Silvana Mendes de Melo</p>
@@ -85,7 +99,7 @@
         </div> 
             </div>
 
-            <div id="B" class="B">
+            <div id="B" class="itensContent content">
                 <div class="tudoB">
                         <p class="FormasB">Entre em contato</p>
                         <p class="NomeB">E-mail</p>
@@ -98,7 +112,7 @@
                 </div>
 
 
-            <div id="C" class="C">
+            <div id="C" class="outrosContent content">
                 <div class="tudoC">
                 <p class="FormasC">Deseja se tornar um voluntário ou realizar uma parceria com a gente?</p>
                         <p class="InfoC">Escreva um e-mail para a <span class="e-mail">contatoredeligadobem@gmail.com</span>, preenchendo o 
@@ -107,6 +121,7 @@
                     </div>
             </div>
          </div>
+        </div>
 
        </div>
          <!--Botões-->
@@ -161,6 +176,11 @@
         </div>
 
         <div class="buttonsF">
+            <div class="fdiv" id="paginaInicial">
+                <p class="titleF"><a href="../index.html">Inicio</a></p><br>
+            </div>
+
+        <div class="buttonsF">
             <div class="fdiv">
                 <p class="titleF"><a href="./Instituição.html">Instituição</a></p><br>
                 <p class="othersF">Sobre</p> 
@@ -203,11 +223,17 @@
                        <span class="texto">redeligadobem</span>
                 </li>
              </a>
+             <a href="https://wa.me/5511980485370" id="Zap">
+                <li class="l">
+                    <span class="icone"><i class="bi bi-whatsapp"></i></span>
+                    <span class="texto">silvana</span>
+                </li>
+            </a>
             </ul>
 
             </div>
         </div>
-
+        </div>
         <div class="copyrightF">
             <p class="copy">Copyright © - Rede Liga do Bem</p>
         </div>
