@@ -1,7 +1,8 @@
-@import url(../Doações/header.css);
-@import url(../Doações/banner.css);
-@import url(../Doações/conteudo.css);
-@import url(../Doações/footer.css);
+@import url(./header.css);
+@import url(./banner.css);
+@import url(./conteudo.css);
+@import url(./footer.css);
+@import url(./responsivo.css);
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 @font-face 
 {

@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="logo">
-            <a href="../index.html"><img src="../Imagens/LogoBranca.png" alt="Logo Branca" height="85px" width="175px"></a>
+            <a href="../index.html"><img src="../Imagens/LogoBranca.png" alt="Logo Branca" height="90px" width="175px"></a>
         </div>
 
         <div class="buttonsH">
@@ -25,6 +25,7 @@
         <div class="help">
             <a href="" class="helpB">AJUDE-NOS</a>
         </div>
+
     </header>
     <!--header-->
 
@@ -37,70 +38,153 @@
          <!--banner-->
 
          <!--Texto-->
+         <div class="TI">
          <div class="textoInicial">
-         <h1 class="titulofoInicial">Como funciona?</h1>
+         <h1 class="tituloInicial">Como funciona?</h1>
          <p class="paragrafoInicial">A Rede Liga do Bem é uma instituição sem fins lucrativos. Isso significa que toda 
-            doação <br> recebida será utilizada para investir nos materiais, na estrutura e para atender às necessidades <br> dos nossos 
-            projetos. Seja através de contribuições financeiras, de doações de itens físicos como<br> roupas e comida, de parcerias, 
-            de patrocínios ou mesmo realizando um trabalho voluntário da <br> nossa causa, saiba que valorizamos imensamente o seu apoio. 
-            Nosso principal objetivo é <br>proporcionar oportunidades para aqueles que residem nas áreas periféricas, garantindo 
-            que<br> todos tenham acesso a atividades educativas e de lazer. Agradecemos de coração por você<br> escolher fazer parte disso 
+            doação recebida será utilizada para investir nos materiais, na estrutura e para atender às necessidades dos nossos 
+            projetos. Seja através de contribuições financeiras, de doações de itens físicos como roupas e comida, de parcerias, 
+            de patrocínios ou mesmo realizando um trabalho voluntário da  nossa causa, saiba que valorizamos imensamente o seu apoio. 
+            Nosso principal objetivo é proporcionar oportunidades para aqueles que residem nas áreas periféricas, garantindo 
+            que todos tenham acesso a atividades educativas e de lazer. Agradecemos de coração por você escolher fazer parte disso 
             conosco!
-    </p>
+          </p>
          </div>
+        </div>
          <!--Texto-->
 
          <!--Botões-->
         <div class="bloco">
          <div class="caixa1">
                 <span class="formas">Formas de doação</span>
-                <span class="a">Dinheiro</span>
-                <span class="b">Itens físicos</span>
-                <span class="c">Outros</span>
+
+                <button onclick="showEhide()" class="a"> Dinheiro </button>
+
+                <button onclick="showOrHide()" class="b"> Itens físicos </button>
+
+                <button onclick="showYhide()" class="c"> Outros </button>
          </div>
 
-         <div class="caixa2">
+         <div id="caixa2" class="caixa2">
+            <div class="Image">
+                <img class="botoesIMG" src="../Imagens/9 Sem Título_20240622110859.png" alt="boneco doações">
+                <img class="botoesIMG2" src="../Imagens/doacaoIMG2.png" alt="boneco doações">
+            </div>
+           
+            <div id="A" class="A">
+                <div class="tudo">
+                <div class="FormasD">
+                    <p class="Nome">Silvana Mendes de Melo</p>
+                    <p class="Info">LigadoBem</p>
+                    <p class="Nome">Chave Pix</p>
+                    <p class="Info">+5511980485370</p>
+                </div>
+              <div class="Code">
+                <img class="QRcode"  src="../Imagens/CodeD.jpg" alt="QRcode">
+            </div>
+        </div> 
+            </div>
+
+            <div id="B" class="B">
+                <div class="tudoB">
+                        <p class="FormasB">Entre em contato</p>
+                        <p class="NomeB">E-mail</p>
+                        <p class="InfoB">contatoredeligadobem@gmail.com</p>
+                        <p class="NomeB">Telefone</p>
+                        <p class="InfoB">+55 11 91926-8005 <br>+55 11 98048-5370</p>
+                        <p class="FormasB">Ou venha nos visitar!</p>
+                        <p class="InfoB">Rua Abril Peres, 35, JD. das Rosas</p>
+                 </div>
+                </div>
+
+
+            <div id="C" class="C">
+                <div class="tudoC">
+                <p class="FormasC">Deseja se tornar um voluntário ou realizar uma parceria com a gente?</p>
+                        <p class="InfoC">Escreva um e-mail para a <span class="e-mail">contatoredeligadobem@gmail.com</span>, preenchendo o 
+                            espaço assunto com "Voluntário" ou "Parceria". </p>
+                        <p class="NomeC">Agora é só enviar!</p>
+                    </div>
+            </div>
          </div>
+
        </div>
          <!--Botões-->
+
+         <!--Caminho da doação-->
+
+         <div class="tituloD"><p class="tituloCD">O poder da sua doação</p></div>
+
+         <div class="container">
+
+            <div class="textoL">
+                <h1 class="P1">SUA DOAÇÃO FORTALECE O ESPORTE</h1>
+                <p class="p1">Organizamos eventos e distribuimo presentes para as crianças.
+               </p>
+
+               <h1 class="P11">SUA DOAÇÃO FOMENTA A SOLIDARIEDADE</h1>
+                <p class="p11">Capacitamos voluntários para atender a comunidade em ações solidárias.
+               </p>
+            </div>
+
+               <img class="CaminhoDoacao" src="../Imagens/CaminhoDoacao.jpg" alt="Caminho da sua doação">
+
+               <div class="textoR">
+               <h1 class="P2">VOCÊ PROPORCIONA MOMENTOS DE ALEGRIA</h1>
+                <p class="p2">Organizamos eventos e distribuimo presentes para crianças.
+               </p>
+
+               <h1 class="P22">VOCÊ AJUDA NA DISTRIBUIÇÃO DE CESTAS BÁSICAS</h1>
+                <p class="p22">Garantimos alimentos para famílias carentes.
+               </p>
+
+               <h1 class="P222">SUA DOAÇÃO PROMOVE A EDUCAÇÃO</h1>
+                <p class="p222">Oferecemos reforço escolar e cursos para adultos e crianças.
+               </p>
+                </div>
+
+            </div>
+         <!--Caminho da doação-->
+
+         
     </main>
 
         <!--footer-->
         <hr>
     <footer>
         <div class="LogoSpaceF">
-            <a href="../index.html"><img src="../Imagens/LogoVBranca.png" alt="Logo Branca" class="Logof"></a>
+            <a href="../index.html"><img src="../Imagens/LogoVBranca.png" class="Logof"></a>
         </div>
-        <div class="textF">
+        <div class="textF" id="None">
             <p>A instituição Rede Liga do Bem surgiu através da vontade de criar um espaço seguro, solidário 
                 e sem fins lucrativos. Visando uma vivência e futuro mais ricos para crianças e adultos.</p>
         </div>
 
         <div class="buttonsF">
             <div class="fdiv">
-                <p class="titleF"><a href="../HTML/Instituição.html">Instituição</a></p><br>
+                <p class="titleF"><a href="./Instituição.html">Instituição</a></p><br>
                 <p class="othersF">Sobre</p> 
                 <p class="othersF">MVV</p>
                 <p class="othersF">Membros</p>
             </div>
             <div class="fdiv">
-                <p class="titleF"><a href="../HTML/Atividades.html">Atividades</a></p><br>
+                <p class="titleF"><a href="./Atividades.html">Atividades</a></p><br>
                 <p class="othersF">Como funciona</p>
                 <p class="othersF">Horários</p>
                 <p class="othersF">Atividades</p>
             </div>
     
             <div class="fdiv">
-                <p class="titleF"><a href="../HTML/doações.html">Doações</a></p><br>
+                <p class="titleF"><a href="./doações.html">Doações</a></p><br>
                 <p class="othersF">Como funciona</p>
                 <p class="othersF">Formas</p>
                 <p class="othersF">Para que fins</p>
             </div>
     
-            <div class="fdiv">
+            <div class="fdiv" id="None">
                 <p class="titleF">Contato</p><br>
-                <p class="numero">(11)9XXXX-XXXX</p>
-                <p>G-mail</a></p>
+                <p class="numero">+55 11 98048-5370</p>
+                <p class="contato">contatoredeligado<br>bem@gmail.com</a></p>
             </div>
     
             <div class="fdiv">
@@ -109,12 +193,12 @@
                 <p class="othersF">Torne-se um apoiador</p>
             </div>
     
-            <div class="fdiv">
-                <p class="titleF">Redes sociais</p>
+            <div class="fdiv" >
+                <p class="titleF" id="None">Redes sociais</p>
                 
-            <ul>
+            <ul class="u">
              <a href="https://www.instagram.com/redeligadobem?igsh=MXdjbzh2Ng==qYndzZ2t">
-                <li>
+                <li class="l">
                        <span class="icone"><i class="bi bi-instagram"></i></span>
                        <span class="texto">redeligadobem</span>
                 </li>

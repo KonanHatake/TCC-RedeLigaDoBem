@@ -60,6 +60,7 @@
 .numero
 {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
 
 .buttonsF
@@ -70,7 +71,7 @@
     flex-direction: row;
 }
 
-ul{
+.u{
     list-style-type: none;
     display: flex;
     position: relative;
@@ -78,7 +79,7 @@ ul{
     padding-top: 15px;
 }
 
-ul li{
+.u .l{
     width: 35px;
     height: 35px;
     border: 2px white solid;
@@ -90,30 +91,29 @@ ul li{
     transition: .2s;
 }
 
-ul li:hover{
+.u .l:hover{
     height: 30px;
     width: 140px;
-
 }
 
-ul li .icone{
+.u .l .icone{
     font-size: 18px;
     transition: .2s;
 }
 
-ul li .texto{
+.u .l .texto{
     transform: scale(0);
     transition: .2s;
     font-size: 18px;
 }
 
-ul li span{
+.u .l span{
     position: absolute;
 }
-ul li:hover .texto{
+.u .l:hover .texto{
     transform: scale(1);
 }
-ul li:hover .icone{
+.u .l:hover .icone{
     transform: scale(0);
 }
 
@@ -122,7 +122,14 @@ footer
     display: flex;
     flex-direction: column;
     scroll-behavior: smooth;
-    background: linear-gradient(rgb(194, 20, 20), #bd1616 90%,  rgb(165, 28, 28));
+    background: linear-gradient(rgb(226, 24, 24), #bd1616 90%,  rgb(165, 28, 28));
     color: white;
     text-decoration: none;
+}
+.contato{
+    font-family: NexaFont;
+    font-size: 15px;
+}
+.icone{
+    padding-top: 2px;
 }

@@ -22,6 +22,3 @@ window.onclick = function(event) {
     }
   }
 }
-
-
-//Galeria

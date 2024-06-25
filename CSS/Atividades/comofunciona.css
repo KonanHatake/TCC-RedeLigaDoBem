@@ -1,9 +1,6 @@
 .ComoFunciona
 {
-    height: 50vh;
-    display: flex;
-   justify-content: center;
-   padding: 35px;
+    height: 68vh;
 }
 
 .ComoFunciona h1, .ComoFunciona p
@@ -25,17 +22,4 @@
     margin: auto;
     width: 80%;
     text-align: justify;
-}
-
-.text
-{
-    width: 90%;
-    text-align: center;
-    font-size: 1.2rem;
-    
-}
-
-.comotext
-{
-  width: 600px;
 }
