@@ -1,0 +1,181 @@
+@media(max-width: 450px)
+{
+    /*Header*/
+    header .buttonsH, .help
+    {
+        display: none;
+    }
+    
+    header .logo
+    {
+        padding: 0;
+        transform: scale(0.85);
+    }
+    
+    header .hamburguer 
+    {
+        display: inline-block;
+        padding: 38px 30px;
+    }
+          
+    .bar1, .bar2, .bar3 
+    {
+        width: 35px;
+        height: 5px;
+        background-color: #ffffff;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+          
+    .change .bar1 
+    {
+        transform: translate(0, 11px) rotate(-45deg);
+    }
+          
+    .change .bar2 
+    {
+        opacity: 0;
+    }
+          
+    .change .bar3 
+    {
+        transform: translate(0, -11px) rotate(45deg);
+    }
+
+    /*Banner*/
+
+    .bannerImage
+    {
+        height: 30vh;
+    }
+
+    .titleB{
+        font-size: 28px;
+    }
+
+    /*Quem somos nos*/
+
+    .texto1 {
+    
+     text-align: justify;
+         text-align: center;
+         font-size: 14px;
+         padding-left: 9%;
+         padding-right: 9%;
+     
+     }
+     
+     .titulo1 {
+         padding-top: 4%;
+         padding-bottom: 2%;
+         font-size: 21px;
+     }
+
+    /*MVV*/
+
+    .MVV
+    {
+       
+        display: block;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 1rem;
+        height: 138vh;
+
+    }
+
+    /*Membros*/
+
+    .time
+    {
+        padding-top: 110vh;
+    }
+    
+    .objetivo{
+        font-size: 20px ;
+    }
+
+    .comprometidos{
+        font-size: 15px;
+    }
+
+    .empoderar {
+        font-size: 16px;
+        padding-left: 12%;
+    padding-right: 12%;
+    }
+
+
+    /*cards*/
+    @media (max-width: 360px) {
+        .team-container {
+            display: flex;
+            overflow-x: scroll; /* Adiciona rolagem horizontal */
+        }
+        .card {
+            min-width: 300px; /* Define a largura mínima para os cards em telas pequenas */
+            flex: 0 0 auto; /* Previne que os cards encolham */
+        }
+    }
+    
+    /*Footer*/
+
+    .LogoSpaceF
+    {
+        display: flex;
+        justify-content: center;
+        width: 320px;
+        height: 220px;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .Logof  
+    {
+        height: 250px;
+        width: 250px;
+    }
+
+    .textF
+    {
+        width: 340px;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .othersF, .fdiv .numero
+    {
+        display: none;
+    }
+
+    .buttonsF
+    {
+        flex-direction: column;
+    }
+
+    .buttonsF
+    {
+        width: 360px;
+    }
+
+    .fdiv
+    {
+        padding: 0px;
+    }
+
+    .fdiv p, ul
+    {
+        width: 360px;
+    }
+
+    .copy
+    {
+        margin-top: 15px;
+    }
+
+    .RS
+    {
+        margin-left: 10px;
+    }
+}
