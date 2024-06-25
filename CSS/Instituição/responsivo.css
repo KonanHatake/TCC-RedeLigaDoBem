@@ -108,7 +108,6 @@
 
 
     /*cards*/
-    @media (max-width: 360px) {
         .team-container {
             display: flex;
             overflow-x: scroll; /* Adiciona rolagem horizontal */
@@ -117,7 +116,7 @@
             min-width: 300px; /* Define a largura mínima para os cards em telas pequenas */
             flex: 0 0 auto; /* Previne que os cards encolham */
         }
-    }
+
     
     /*Footer*/
 
