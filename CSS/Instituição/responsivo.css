@@ -1,0 +1,286 @@
+@media(max-width: 450px)
+{
+    /*Header*/
+    header .buttonsH, .help
+    {
+        display: none;
+    }
+    
+    header .logo
+    {
+        padding: 0;
+        transform: scale(0.85);
+    }
+    
+    header .hamburguer 
+    {
+        display: inline-block;
+        padding: 38px 30px;
+    }
+          
+    .bar1, .bar2, .bar3 
+    {
+        width: 35px;
+        height: 5px;
+        background-color: #ffffff;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+          
+    .change .bar1 
+    {
+        transform: translate(0, 11px) rotate(-45deg);
+    }
+          
+    .change .bar2 
+    {
+        opacity: 0;
+    }
+          
+    .change .bar3 
+    {
+        transform: translate(0, -11px) rotate(45deg);
+    }
+
+    /*Banner*/
+
+    .bannerImage
+    {
+        height: 30vh;
+    }
+
+    .titleB{
+        font-size: 28px;
+    }
+
+    /*Quem somos nos*/
+
+    .texto1 {
+    
+     text-align: justify;
+         text-align: center;
+         font-size: 14px;
+         padding-left: 9%;
+         padding-right: 9%;
+     
+     }
+     
+     .titulo1 {
+         padding-top: 4%;
+         padding-bottom: 2%;
+         font-size: 21px;
+     }
+
+    /*MVV*/
+
+    .MVV
+    {
+       
+        display: block;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 1rem;
+        height: 138vh;
+
+    }
+
+    /*Membros*/
+
+    .time
+    {
+        padding-top: 110vh;
+    }
+    
+    .objetivo{
+        font-size: 20px ;
+    }
+
+    .comprometidos{
+        font-size: 15px;
+    }
+
+    .empoderar {
+        font-size: 16px;
+        padding-left: 12%;
+    padding-right: 12%;
+    }
+
+    .trajetoria{
+        height: 80vh;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .trajetoriatitle{
+    margin-top: 20px;
+        color: #072d35;
+        text-align: center;
+        padding: 20px;
+        font-size: 20px;
+        font-family: NexaFont;
+    }
+    
+    .timeline
+    {
+        display: none;
+    }
+
+    .celular{
+        display: block;
+    }
+
+    /*cards*/
+
+    .carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.cardparticipantes {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.card {
+    min-width: 200px;
+    flex: 0 0 auto;
+    background-color: rgb(246, 246, 246);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s, opacity 0.3s;
+}
+
+.card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.card .nome {
+    font-family: CocoGothicFont;
+    font-size: 1.5em;
+    margin: 10px 0 5px;
+    transition: color 0.3s;
+    color: rgb(2, 5, 34);
+}
+
+.card h3 {
+    color: rgb(110, 109, 109);
+    margin: 0 0 10px;
+    font-family: CocoGothicFont;
+}
+
+.card p {
+    color: #4d4c4c;
+    font-family: CocoGothicFont;
+}
+
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}
+
+
+    .cardparticipantes {
+        display: flex;
+    }
+
+    .carousel {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+    }
+
+    .card {
+        scroll-snap-align: center;
+    }
+
+
+
+    /*Footer*/
+
+    .LogoSpaceF
+    {
+        display: flex;
+        justify-content: center;
+        width: 320px;
+        height: 220px;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .Logof  
+    {
+        height: 250px;
+        width: 250px;
+    }
+
+    .textF
+    {
+        width: 340px;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .othersF, .fdiv .numero
+    {
+        display: none;
+    }
+
+    .buttonsF
+    {
+        flex-direction: column;
+    }
+
+    .buttonsF
+    {
+        width: 360px;
+    }
+
+    .fdiv
+    {
+        padding: 0px;
+    }
+
+    .fdiv p, ul
+    {
+        width: 360px;
+    }
+
+    .copy
+    {
+        margin-top: 15px;
+    }
+
+    .RS
+    {
+        margin-left: 10px;
+    }
+}

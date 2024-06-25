@@ -5,6 +5,14 @@
     color: white;
 }
 
+.banner
+{
+    position: relative;
+    text-align: center;
+    color: white;
+    
+}
+
 .bannerImage
 {
     background-size: cover;
