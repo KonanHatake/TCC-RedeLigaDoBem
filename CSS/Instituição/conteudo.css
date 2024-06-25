@@ -15,29 +15,38 @@
     display: flex;
     flex-direction: row;
     background-color: #0096B6;
-    height: 50vh;
+    height: 60vh;
+
+    
 }
 
 .Missão
 {
     background-color: #0096B6;
-    padding: 220px 30px;
+    padding: 100px 30px;
     text-align: justify;
+    font-family: CocoGothicFont;
+    font-size: 20px;
 }
 
 .Visão
 {
-    background-color: #68d0e7;
-    padding: 220px 30px;
+    background-color: #1db4d6;
+    padding: 100px 30px;
     text-align: justify;
+    font-family: CocoGothicFont;
+    font-size: 20px;
 }
 
 .Valor
 {
     background-color: #093c47;
-    padding: 220px 30px;
+    padding: 100px 30px;
     text-align: justify;
+    font-family: CocoGothicFont;
+    font-size: 20px;
 }
+
 
 .Missão h3, .Visão h3, .Valor h3
 {
@@ -46,15 +55,159 @@
     font-family: NexaFont;
     font-weight: bold;
     text-align: center;
+    
 }
 
 .Membros
 {
-    height: 50vh;
+    height: 130vh;
 }
 
 .Membros h1
 {
     text-align: center;
     color: #0096B6;
+    font-family: NexaFont;
 }
+
+.objetivo{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    font-family: NexaFont;
+    color: #072d35;
+    margin-top: 30px;
+}
+
+.comprometidos{
+    text-align: center;
+    font-size: 30px;
+    font-family: CocoGothicFont;
+    color: #093c47;
+    padding-bottom: 15px;
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.cardparticipantes {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    justify-content: center;
+}
+
+.card {
+    min-width: 200px;
+    flex: 0 0 auto;
+    background-color: rgb(246, 246, 246);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s, opacity 0.3s;
+}
+
+.card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.card .nome {
+    font-family: CocoGothicFont;
+    font-size: 1.5em;
+    margin: 10px 0 5px;
+    transition: color 0.3s;
+    color: rgb(2, 5, 34);
+}
+
+.card h3 {
+    color: rgb(110, 109, 109);
+    margin: 0 0 10px;
+    font-family: CocoGothicFont;
+}
+
+.card p {
+    color: #4d4c4c;
+    font-family: CocoGothicFont;
+}
+
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}
+
+
+
+.empoderar{
+    text-align: center;
+    color: #072d35;
+    font-family: CocoGothicFont;
+    padding-left: 19%;
+    padding-right: 19%;
+    padding-top: 18px;
+    padding-bottom: 5%;
+}
+
+.trajetoria{
+    height: 132vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.trajetoriatitle{
+margin-top: 20px;
+    color: #072d35;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    font-family: NexaFont;
+}
+
+.timeline
+{
+    background-size: cover;
+    background-position: center;
+    height: 68vh;
+    display: block;
+}
+
+.celular{
+    display: none;
+}
+
+.numero{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    color: #072d35;
+    display: inline;
+    
