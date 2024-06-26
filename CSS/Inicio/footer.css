@@ -57,6 +57,14 @@
     font-family: CocoGothicFont;
 }
 
+.fdivEspecial
+{
+    display: none;
+    padding: 20px 30px 20px 0px;
+    text-align: center;
+    font-family: CocoGothicFont;
+}
+
 .numero
 {
     font-family: Arial, Helvetica, sans-serif;
