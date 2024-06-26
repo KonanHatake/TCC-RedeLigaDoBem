@@ -30,7 +30,6 @@
         height: 5px;
         background-color: #0096B6;
         margin: 6px 0;
-        transition: 0.4s;
     }
       
     .closeButton .bar1 
@@ -60,7 +59,7 @@
         height: 100%;
         background-color: rgb(255, 255, 255);
         z-index: 2;
-        padding: 220px 0px 120px; /* Ajuste conforme necessário */
+        padding: 0px 0px 0px; /* Ajuste conforme necessário */
         box-sizing: border-box;
         font-family: NexaFont;
         font-weight: bold;
@@ -79,6 +78,14 @@
         color: #0096B6;
         text-decoration: none;
         text-align: center;
+    }
+
+    .overlayButtons
+    {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     /*Banner*/
@@ -106,54 +113,71 @@
     {
         display: inline;
         height: 100vh;
+        margin: auto;
     }
 
     .card
     {
         margin-top: 20px;
+        height: 300px;
+        width: 250px;
     }
 
     /*Relatos*/
 
-    .relatoSpace
+    .relato
     {
-        display: flex;
-        justify-content: center;
+        padding: 0;
     }
 
-    .relatos
+    .relatoNaninho, .relatoExAluno
     {
-        width: 330px;
-        justify-content: center;
-        flex-direction: column;
+        width: 300px;
+        height: 570px;
     }
 
-    .relatos img
+    .relatoNaninho
     {
-        padding: 20px;
+        margin: 40px 0px;
     }
-    
-    .textRelatos
+
+    .relatoExAluno
     {
-        text-align: center;
-        width: 330px;
+        margin: 40px 0px;
     }
-    .textRelatos h2
+
+    .relatoNaninho img, .relatoExAluno img
     {
+        width: 200px;
+        height: 200px;
+        padding: 5px;
+    }
+
+    .relatoNaninho h2, .relatoExAluno h2
+    {
+        padding: 5px;
+        font-family: NexaFont;
+        font-weight: bold;
         font-size: 25px;
     }
     
-    .relato
+    .relatoNaninho h3, .relatoExAluno h3
     {
-        width: 300px;
-        height: 90vh;
+        font-family: CocoGothicFont;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .relatoNaninho p, .relatoExAluno p
+    {
+        padding: 15px 8px 15px;
+        font-family: CocoGothicFont;
+        font-size: 17px;
+        text-align: justify;
+        width: 270px;
     }
 
-    .relato p
-    {
-        width: 290px;
-    }
-
+    
     /*Map*/
 
     .textM img, .textM h3
@@ -187,12 +211,7 @@
 
     .LogoSpaceF
     {
-        display: flex;
-        justify-content: center;
-        width: 320px;
-        height: 220px;
-        margin: 0;
-        padding: 20px;
+        display: none;
     }
 
     .Logof  
@@ -203,9 +222,7 @@
 
     .textF
     {
-        width: 340px;
-        margin: 0;
-        padding: 10px;
+        display: none;
     }
 
     .othersF, .fdiv .numero
@@ -223,8 +240,15 @@
         width: 360px;
     }
 
+    .fdivEspecial
+    {
+        display: flex;
+        padding: 12px 0px 5px;
+    }
+
     .fdiv
     {
+        height: 30px;
         padding: 0px;
     }
 
@@ -235,11 +259,17 @@
 
     .copy
     {
-        margin-top: 15px;
+        margin-top: 45px;
     }
 
     .RS
     {
         margin-left: 10px;
+    }
+
+    footer ul
+    {
+        padding: 0;
+        margin-bottom: 50px;
     }
 }

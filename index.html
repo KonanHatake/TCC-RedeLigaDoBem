@@ -12,39 +12,36 @@
         <div class="logo">
             <a href="./index.html"><img src="./Imagens/LogoColorida.png" alt="Logo Colorida" height="90px" width="175px"></a>
         </div>
-
         <div class="buttonsH">
             <a href="./index.html">INICIO</a>
             <a href="./HTML/Instituição.html">INSTITUIÇÃO</a>
             <a href="./HTML/Atividades.html">ATIVIDADES</a>
             <a href="./HTML/doações.html">DOAÇÕES</a>
         </div>
-
         <div class="help">
             <a href="" class="helpB">AJUDE-NOS</a>
         </div>
-
         <!-- BOTÃO HAMBURGUER PARA O MOBILE -->
         <div class="hamburguer" onclick="toggleMenu()">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
         </div>
-
         <!-- Botões do menu hamburguer -->
         <div class="overlay" id="overlay">
             <div class="closeButton" id="hamburguer" onclick="fechar()">
-                <div class="bar1"></div>
-                <div class="bar3"></div>
+                <div class="bar1" id="bar1"></div>
+                <div class="bar3" id="bar3"></div>
             </div>
-            <a href="./index.html">INICIO</a>
-            <a href="./HTML/Instituição.html">INSTITUIÇÃO</a>
-            <a href="./HTML/Atividades.html">ATIVIDADES</a>
-            <a href="./HTML/doações.html">DOAÇÕES</a>
+            <div class="overlayButtons">
+                <a href="./index.html">INICIO</a>
+                <a href="./HTML/Instituição.html">INSTITUIÇÃO</a>
+                <a href="./HTML/Atividades.html">ATIVIDADES</a>
+                <a href="./HTML/doações.html">DOAÇÕES</a>
+                <a href="./HTML/Faleconosco.html">AJUDE-NOS</a>
+            </div>
         </div>
     </header>
-
-    <hr>
 
     <main>
         <div class="banner">
@@ -52,7 +49,6 @@
             <h3 class="titleB">REDE LIGA DO BEM</h3>
             <p class="subtitleB">União e Diversidade</p>
         </div>
-
         <div class="cards">
             <a href="./HTML/Instituição.html">
                 <div class="card">
@@ -79,27 +75,28 @@
                 </div>
             </a>
         </div>
-
-        <hr>
-
+    <hr>
         <div class="relatoSpace">
-            <div class="relatos">
-                <img src="./Imagens/RandolaImage.jpg" alt="" width="300px" height="300px">
-
-                <div class="textRelatos">
-                    <h2>Julia Gomes da Silva</h2>
-                    <p class="subtitleRelatos">Ex Aluna</p>
-                    <div class="relato">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tempus iaculis urna id. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Quis enim lobortis scelerisque fermentum dui. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim. Fames ac turpis egestas integer. Volutpat odio facilisis mauris sit amet massa vitae. Mauris augue neque gravida in fermentum. Pretium vulputate sapien nec sagittis aliquam. Posuere morbi leo urna molestie at elementum eu facilisis sed.
-                        <br> <br>
-                        Felis eget nunc lobortis mattis aliquam. Convallis tellus id interdum velit laoreet id donec ultrices tincidunt. Aliquam vestibulum morbi blandit cursus risus. Tempor orci dapibus ultrices in. Nulla facilisi cras fermentum odio eu. Risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Euismod in pellentesque massa placerat duis ultricies lacus sed turpis. Eget est lorem ipsum dolor. Enim neque volutpat ac tincidunt. Proin libero nunc consequat interdum varius sit amet mattis vulputate.</p>
+            <div class="relato">
+                <div class="relatoNaninho">
+                        <img src="./Imagens/Naninho.png" alt="" width="300px" height="300px">
+                    <div class="textRelato">
+                        <h2>Fernando (Naninho)</h2>
+                        <h3 class="subtitleRelatos">Presidente</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias necessitatibus fugit dolor quae, beatae modi eum dolores dignissimos soluta suscipit aut ex qui vero illo facere ducimus hic cumque aperiam.</p>
+                    </div>
+                </div>
+                <div class="relatoExAluno">
+                        <img src="./Imagens/Naninho.png" alt="" width="300px" height="300px">
+                    <div class="textRelato">
+                        <h2>Nome</h2>
+                        <h3 class="subtitleRelatos">Ex-Aluno</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor perspiciatis nemo officiis impedit sapiente quaerat! Culpa magni molestiae voluptatum quisquam fugiat laudantium tenetur ipsam. Enim ab neque fugit praesentium perspiciatis!</p>
                     </div>
                 </div>
             </div>
         </div>
-
-        <hr>
-
+    <hr>
         <div class="map">
             <div class="textM">
                 <img src="./Imagens/Map.png" alt="Mapa" height="350px" width="350px">
@@ -114,9 +111,8 @@
         </div>
     </main>
 
-
-    
     <hr>
+
     <footer>
         <div class="LogoSpaceF">
            <a href="./index.html"> <img src="./Imagens/LogoVRGB.png" alt="Logo Colorida" class="Logof"></a>
@@ -128,6 +124,10 @@
         </div>
 
         <div class="buttonsF">
+            <div class="fdivEspecial">
+                <p class="titleF"><a href="./index.html">Inicio</a></p>
+            </div>
+
             <div class="fdiv">
                 <p class="titleF"><a href="./HTML/Instituição.html">Instituição</a></p><br>
                 <p class="othersF">Sobre</p> 
