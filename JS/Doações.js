@@ -8,31 +8,8 @@ function showDiv(className) {
 }
 
 
+bar1 = document.getElementsByClassName("bar1")
 
-
-function myFunction(x) 
-{
-    x.classList.toggle("change");
-}
-/* Quando o usuário clica no botão,
-alternar entre ocultar e mostrar o conteúdo suspenso */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Feche o menu suspenso se o usuário clicar fora dele
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
 function toggleMenu() 
 {
 
@@ -40,6 +17,10 @@ function toggleMenu()
     overlay.style.display = "block";
     let closeButton = document.getElementById('hamburguer');
     closeButton.style.display = "block";
+    let closeBars1 = document.getElementById('bar1')
+    let closeBars3 = document.getElementById('bar3')
+    closeBars1.style.backgroundColor = "#bd1616"
+    closeBars3.style.backgroundColor = "#bd1616"
 }
 
 function fechar()
@@ -48,4 +29,9 @@ function fechar()
     overlay.style.display = "none";
     let closeButton = document.getElementById('hamburguer');
     closeButton.style.display = "none";
+    let closeBars1 = document.getElementById('bar1')
+    let closeBars3 = document.getElementById('bar3')
+    closeBars1.style.backgroundColor = "#fff"
+    closeBars3.style.backgroundColor = "#fff"
+    
 }

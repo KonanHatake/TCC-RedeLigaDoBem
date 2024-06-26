@@ -1,4 +1,4 @@
-
+bar1 = document.getElementsByClassName("bar1")
 
 function toggleMenu() 
 {
@@ -15,4 +15,5 @@ function fechar()
     overlay.style.display = "none";
     let closeButton = document.getElementById('hamburguer');
     closeButton.style.display = "none";
+    
 }
