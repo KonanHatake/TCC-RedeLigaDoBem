@@ -61,6 +61,14 @@
 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
+<<<<<<< Updated upstream:CSS/Atividades/footer.css
+=======
+}
+
+.buttonsF a
+{
+    color: white;
+>>>>>>> Stashed changes:CSS/Faleconosco/footer.css
 }
 
 .buttonsF
@@ -122,7 +130,11 @@ footer
     display: flex;
     flex-direction: column;
     scroll-behavior: smooth;
+<<<<<<< Updated upstream:CSS/Atividades/footer.css
     background: linear-gradient(#ffe23b, #eec71c 90%,  #dfac06);
+=======
+    background: linear-gradient(rgb(242, 92, 4), #e0610d 90%, rgb(224, 125, 11));
+>>>>>>> Stashed changes:CSS/Faleconosco/footer.css
     color: white;
     text-decoration: none;
 }
