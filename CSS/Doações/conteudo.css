@@ -6,6 +6,7 @@
 .textoInicial{
     height: 49vh;
     width: 160vh;
+    padding-top: 4%;
 }
 .tituloInicial,.paragrafoInicial{
     text-align: center;

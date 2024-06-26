@@ -45,14 +45,17 @@
 
 header
 {
-    max-width: 100%;
     display: flex;
     justify-content: space-between;
     scroll-behavior: smooth;
     background: linear-gradient(#ffe23b, #eec71c 90%,  #dfac06);
 }
-
 header .hamburguer, header .overlay
 {
+    display: none;
+}
+.closeButton
+{
+    z-index: 3;
     display: none;
 }

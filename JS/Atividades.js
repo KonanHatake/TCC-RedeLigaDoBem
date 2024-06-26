@@ -1,15 +1,3 @@
-function showDiv(className) {
-    var contents = document.querySelectorAll('#contentArea .content');
-    contents.forEach(function(content) {
-        content.style.display = 'none';
-    });
-    var activeContent = document.querySelector('#contentArea .' + className);
-    activeContent.style.display = 'block';
-}
-
-
-
-
 function myFunction(x) 
 {
     x.classList.toggle("change");

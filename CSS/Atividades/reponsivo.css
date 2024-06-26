@@ -1,5 +1,5 @@
-@media(max-width: 760px)
-{
+@media (max-width: 768px) {
+   
     *
     {
         align-items: center;
@@ -10,43 +10,41 @@
     {
         display: none;
     }
-    
+
     header .logo
     {
         padding: 0;
         transform: scale(0.85);
     }
-    
+
     header .hamburguer 
     {
         display: inline-block;
         padding: 38px 30px;
     }
-          
+
     .bar1, .bar2, .bar3 
     {
         width: 35px;
         height: 5px;
-        background-color: #ffffff;
+        background-color: white;
         margin: 6px 0;
         transition: 0.4s;
     }
-          
-    .closeButton .bar1 
+
+    .change .bar1 
     {
-        transform: translate(0, 5px) rotate(-44deg);
-    }
-      
-    .closeButton .bar3 
-    {
-        transform: translate(0, -5px) rotate(45deg);
+        transform: translate(0, 11px) rotate(-45deg);
     }
 
-    .closeButton
+    .change .bar2 
     {
-        position: absolute;
-        top: 45px;
-        right: 30px;
+        opacity: 0;
+    }
+
+    .change .bar3 
+    {
+        transform: translate(0, -11px) rotate(45deg);
     }
 
     .overlay 
@@ -57,12 +55,10 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: rgb(255, 255, 255);
+        background-color: rgba(255, 255, 255, 0.95);
         z-index: 2;
-        padding: 90px 0px 120px; /* Ajuste conforme necessário */
+        padding-top: 60px; /* Ajuste conforme necessário */
         box-sizing: border-box;
-        font-family: NexaFont;
-        font-weight: bold;
     }
 
     .overlay.active 
@@ -73,62 +69,14 @@
     .overlay a 
     {
         display: block;
-        padding: 30px 20px;
+        padding: 20px;
         font-size: 18px;
-        color: #eec71c;
+        color: #333;
         text-decoration: none;
         text-align: center;
     }
 
-   /*Texto da página e banner*/
-   .bannerImage
-   {
-       height: 26vh;
    }
-   .titleB{
-       font-size: 22px;
-   }
-
-   .tituloInicial,.paragrafoInicial{
-       padding-top: 0px;
-   }
-   .textoInicial{
-       height: 170px;
-       width: 48vh;
-       padding: auto;
-   }
-   .tituloInicial{
-       font-size: 20px;
-   }
-   .paragrafoInicial{
-       font-size: 10px;
-   }
-    /*Texto da página e banner*/
-
-    /*Cards*/
-
-    .Atividades
-    {
-        height: 400vh;
-    }
-
-    .card
-    {
-        width: 300px;
-        height: 380px;
-    }
-
-    .card img
-    {
-        width: 300px;
-        height: 170px;
-    }
-
-    .card button
-    {
-        right: 100px;
-    }
-    
 
    /*footer*/
 .Logof{
@@ -206,4 +154,5 @@ footer{
     display: block;
 }
 
-}
+/*FORMULARIO*/
+
