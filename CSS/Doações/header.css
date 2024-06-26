@@ -56,3 +56,8 @@ header .hamburguer, header .overlay
 {
     display: none;
 }
+.closeButton
+{
+    z-index: 3;
+    display: none;
+}

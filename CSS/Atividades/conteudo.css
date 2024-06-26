@@ -1,3 +1,31 @@
+/*Texto da página*/
+.TI{
+    display: flex;
+    justify-content: center;
+}
+.textoInicial{
+    height: 49vh;
+    width: 160vh;
+    padding-top: 4%;
+}
+.tituloInicial,.paragrafoInicial{
+    text-align: center;
+    padding-top: 10px;
+}
+.tituloInicial{
+    color: #ecca0a;
+    font-family: NexaFont;
+    font-size: 40px;
+    font-weight: bold;
+}
+.paragrafoInicial{
+    color: black;
+    font-family: CocoGothicFont;
+    font-size: 24px;
+}
+/*Texto da página*/
+
+
 .card {
 	background-color: #f2f2f2;
 	border-radius: 10px;
@@ -48,7 +76,7 @@
 
 .Atividades
 {
-    height: 60vh;
+    height: 200vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
