@@ -93,7 +93,7 @@
         padding-top: 0px;
     }
     .textoInicial{
-        height: 150px;
+        height: 160px;
         width: 48vh;
         padding: auto;
     }
@@ -234,38 +234,18 @@
 /*conteúdo dos botões*/
 
 /*O poder da sua doação*/
-.textoL,.textoR{
-    width: 100px;
-    height: 80vh;
+.container{
+    display: none;
 }
-.p2,.p22,.p222,.p1,.p11{
-    font-size: 10px;
-    font-weight: bold;
-    padding: 2px;
+.container2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
 }
-.P2,.P22,.P222,.P1,.P11{
-    font-size: 10px;
-    padding: 2px;
+.CaminhoDoacao2{
+    width: 40vh;
 }
-.P2{
-    margin-top: 0px;
-}
-.P22{
-    margin-top: 25vh;
-}
-.P222{
-    margin-top: 25vh
-}
-.P1{
-    margin-top: 20vh;
-}
-.P11{
-    margin-top: 21vh;
-}
-.CaminhoDoacao{
-    width: 20vh;
-    height: 92vh;
-}
+
 /*O poder da sua doação*/
 
 /*footer*/

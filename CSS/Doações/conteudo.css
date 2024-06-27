@@ -216,6 +216,9 @@
     margin-bottom: 2%;
 
 }
+.container2{
+    display: none;
+}
 .container{
     display: flex;
     justify-content: center;
