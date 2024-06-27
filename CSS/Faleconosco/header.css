@@ -1,0 +1,66 @@
+.logo
+{
+    width: 200px;
+    padding: 15px;
+    padding-bottom: 18px;
+}
+
+.buttonsH
+{
+    width: 422px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 50px 30px 0px 0px;
+    font-family: NexaFont;
+    font-weight: bold;
+}
+
+.buttonH, a
+{
+    color: white;
+}
+
+.buttonH
+{
+    border: none;
+    background-color: transparent;
+    font-family: NexaFont;
+    font-weight: bold;
+
+}
+
+.help 
+{
+    padding: 45px;
+}
+
+.helpB
+{
+    padding: 10px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+    color: rgb(242, 92, 4);
+    font-family: NexaFont;
+    font-weight: bold;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    scroll-behavior: smooth;
+    background-color: rgb(242, 92, 4);
+}
+header .hamburguer, header .overlay
+{
+    display: none;
+}
+.closeButton
+{
+    z-index: 3;
+    display: none;
+}
