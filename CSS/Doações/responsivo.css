@@ -89,7 +89,7 @@
         font-size: 24px;
     }
     .textoInicial{
-        height: 160px;
+        height: auto;
         width: 48vh;
         padding-bottom: 24px;
     }
