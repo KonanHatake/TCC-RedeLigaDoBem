@@ -41,15 +41,15 @@
 .T{
     display: flex;
     justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-color:#eec71c;
+    text-align: center;
 }
 .Titulo{
     color: white;
     font-family: NexaFont;
     font-size: 35px;
-    width: 100%;
-    height: 50px;
-    background-color:#eec71c;
-    text-align: center;
 }
 .card {
 	background-color: #f2f2f2;
