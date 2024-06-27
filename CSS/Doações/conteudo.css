@@ -4,13 +4,13 @@
     justify-content: center;
 }
 .textoInicial{
-    height: 49vh;
-    width: 160vh;
+    height: 50vh;
     padding-top: 4%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 .tituloInicial,.paragrafoInicial{
     text-align: center;
-    padding-top: 10px;
 }
 .tituloInicial{
     color: #cc1a1a;
@@ -222,43 +222,9 @@
 .container{
     display: flex;
     justify-content: center;
-    margin-bottom: 2%;
-}
-.textoL,.textoR{
-    width: 350px;
-    height: 125vh;
-}
-.textoL{
-    text-align: end;
-}
-.p2,.p22,.p222,.p1,.p11{
-    color: black;
-    font-family: CocoGothicFont;
-    font-size: 22px;
-}
-.P2,.P22,.P222,.P1,.P11{
-    color: #da1919;
-    font-family: NexaFont;
-    font-size: 24px;
-    font-weight: bold;
-}
-.P2{
-    margin-top: 50px;
-}
-.P22{
-    margin-top: 170px;
-}
-.P222{
-    margin-top: 140px;
-}
-.P1{
-    margin-top: 200px;
-}
-.P11{
-    margin-top: 160px;
 }
 .CaminhoDoacao{
-    width: 28vh;
+    width: 98vh;
     height: 125vh;
 }
 /*O poder da sua doação*/
