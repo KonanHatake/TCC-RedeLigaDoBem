@@ -50,12 +50,18 @@
     }
 
     .titleB{
-        font-size: 28px;
+        font-size: 22px;
     }
 
     .time{
         height:  50vh;
     }
+
+    .titleC{
+        font-size: 14px;
+        padding-top: 90px;
+    }
+
 
     /*Quem somos nos*/
 
@@ -63,9 +69,11 @@
     
      text-align: justify;
          text-align: center;
-         font-size: 14px;
-         padding-left: 9%;
-         padding-right: 9%;
+         font-size: 18px;
+         padding-left: 14%;
+         padding-right: 14%;
+         font-weight: bold;
+         text-align: justify;
      
      }
      
@@ -73,6 +81,14 @@
          padding-top: 4%;
          padding-bottom: 2%;
          font-size: 21px;
+     }
+
+     .QuemSomos{
+        height: 75vh;
+     }
+
+     .QuemSomos h1{
+        font-size: 40px;
      }
 
     /*MVV*/
@@ -93,11 +109,12 @@
 
     .time
     {
-        padding-top: 90vh;
+        padding-top: 80vh;
     }
     
     .objetivo{
-        font-size: 20px ;
+        font-size: 20px;
+        padding-top: 12%;
     }
 
     .comprometidos{
@@ -108,6 +125,7 @@
         font-size: 16px;
         padding-left: 12%;
     padding-right: 12%;
+    text-align: justify;
     }
 
     .trajetoria{
@@ -121,7 +139,7 @@
         color: #072d35;
         text-align: center;
         padding: 20px;
-        font-size: 20px;
+        font-size: 25px;
         font-family: NexaFont;
     }
 
@@ -154,19 +172,14 @@
     }
 
     .carousel{
-
-        padding-left: 24%;
-        margin-right: 40%;
-        height: 25vh;
+        padding-left: 60%;
+        margin-right: 390px;
         padding-top: 15vh;
     }
 
     .card {
             width: 80px;
-            padding: 13px;
-            
     }
-    
     
     .carousel-arrow {
             padding: 5px;
@@ -261,5 +274,80 @@
     .RS
     {
         margin-left: 10px;
+    }
+
+
+    /*Header*/
+    header .buttonsH, .help
+    {
+        display: none;
+    }
+
+    header .logo
+    {
+        padding: 0;
+        transform: scale(0.85);
+    }
+
+    header .hamburguer 
+    {
+        display: inline-block;
+        padding: 38px 30px;
+    }
+      
+    .bar1, .bar2, .bar3 
+    {
+        width: 35px;
+        height: 5px;
+        background-color: white;
+        margin: 6px 0;
+    }
+      
+    .closeButton .bar1 
+    {
+        transform: translate(0, 5px) rotate(-44deg);
+    }
+      
+    .closeButton .bar3 
+    {
+        transform: translate(0, -5px) rotate(45deg);
+    }
+
+    .closeButton
+    {
+        position: absolute;
+        top: 45px;
+        right: 30px;
+    }
+
+    .overlay 
+    {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        z-index: 2;
+        padding: 90px 0px 120px; /* Ajuste conforme necessário */
+        box-sizing: border-box;
+        font-family: NexaFont;
+        font-weight: bold;
+    }
+
+    .overlay.active 
+    {
+        display: block; /* Mostra o overlay quando a classe 'active' é adicionada */
+    }
+
+    .overlay a 
+    {
+        display: block;
+        padding: 30px 20px;
+        font-size: 18px;
+        color: #01758f;
+        text-decoration: none;
+        text-align: center;
     }
 }
