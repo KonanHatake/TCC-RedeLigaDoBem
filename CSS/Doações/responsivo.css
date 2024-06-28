@@ -222,14 +222,13 @@
 .FormasC{
     font-size: 17px;
 }
+/*O poder da sua doação*/
 .tituloCD{
     width: 230px;
     font-size: 18px;
     margin-bottom: 2%;
 }
-/*conteúdo dos botões*/
 
-/*O poder da sua doação*/
 .container2{
     display: flex;
     justify-content: center;
