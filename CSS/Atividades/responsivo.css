@@ -110,12 +110,12 @@
     }
 
     .Container{
-        height: 200vh;
         flex-wrap: wrap;
     }
     .card1, .card2, .card3{
         width: 270px;
-        height: 360px
+        height: 360px;
+        margin: 20px;
         
     }
     .textoCard{
