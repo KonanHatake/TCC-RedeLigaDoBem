@@ -132,9 +132,12 @@ footer{
 #None{
     display: none;
 }
+
+
 .u .l{
     width: 20px;
     height: 20px;
+    border: 1px  rgb(255, 255, 255) solid;
 }
 .u .l:hover{
     height: 18px;
