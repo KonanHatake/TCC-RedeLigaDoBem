@@ -110,7 +110,7 @@
     }
 
     .Container{
-        height: 230vh;
+        height: 200vh;
         flex-wrap: wrap;
     }
     .card1, .card2, .card3{
