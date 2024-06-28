@@ -172,8 +172,9 @@
     }
 
     .carousel{
-        padding-left: 60%;
-        margin-right: 390px;
+        padding-left: 30%;
+        padding-right: 60%;
+        margin-right: 150px;
         padding-top: 15vh;
     }
 
