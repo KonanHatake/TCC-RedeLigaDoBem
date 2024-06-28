@@ -1,8 +1,8 @@
-@import url(./banner.css);
-@import url(./footer.css);
-@import url(./conteudo.css);
-@import url(./responsivo.css);
 @import url(./header.css);
+@import url(./banner.css);
+@import url(./conteudo.css);
+@import url(./footer.css);
+@import url(./responsivo.css);
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 @font-face 
 {
@@ -40,7 +40,7 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: white;
 }
 
 html {

@@ -122,7 +122,7 @@ footer
     display: flex;
     flex-direction: column;
     scroll-behavior: smooth;
-    background: linear-gradient(#dfad08, #eec71c 90%,  #dfac06);
+    background: linear-gradient(#ffe23b, #eec71c 90%,  #dfac06);
     color: white;
     text-decoration: none;
 }

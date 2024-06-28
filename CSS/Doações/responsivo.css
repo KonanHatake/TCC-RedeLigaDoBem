@@ -88,14 +88,10 @@
     .titleB{
         font-size: 24px;
     }
-
-    .tituloInicial,.paragrafoInicial{
-        padding-top: 0px;
-    }
     .textoInicial{
-        height: 160px;
+        height: auto;
         width: 48vh;
-        padding: auto;
+        padding-bottom: 24px;
     }
     .tituloInicial{
         font-size: 22px;
@@ -226,17 +222,13 @@
 .FormasC{
     font-size: 17px;
 }
+/*O poder da sua doação*/
 .tituloCD{
     width: 230px;
     font-size: 18px;
     margin-bottom: 2%;
 }
-/*conteúdo dos botões*/
 
-/*O poder da sua doação*/
-.container{
-    display: none;
-}
 .container2{
     display: flex;
     justify-content: center;
@@ -244,6 +236,9 @@
 }
 .CaminhoDoacao2{
     width: 40vh;
+}
+.container{
+    display: none;
 }
 
 /*O poder da sua doação*/

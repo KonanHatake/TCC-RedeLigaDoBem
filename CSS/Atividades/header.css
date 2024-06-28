@@ -1,3 +1,4 @@
+
 .logo
 {
     width: 200px;
@@ -37,7 +38,7 @@
     -moz-border-radius: 50px;
     border-radius: 50px;
     border: none;
-    background-color: #fff;
+    background-color: white;
     color: #eec71c;
     font-family: NexaFont;
     font-weight: bold;
@@ -50,6 +51,7 @@ header
     scroll-behavior: smooth;
     background: linear-gradient(#ffe23b, #eec71c 90%,  #dfac06);
 }
+
 header .hamburguer, header .overlay
 {
     display: none;
