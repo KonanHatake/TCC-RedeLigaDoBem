@@ -52,5 +52,33 @@ document.addEventListener('DOMContentLoaded', function () {
     window.addEventListener('resize', updateCarousel);
 });
 
+bar1 = document.getElementsByClassName("bar1")
+
+function toggleMenu() 
+{
+
+    let overlay = document.getElementById('overlay');
+    overlay.style.display = "block";
+    let closeButton = document.getElementById('hamburguer');
+    closeButton.style.display = "block";
+    let closeBars1 = document.getElementById('bar1')
+    let closeBars3 = document.getElementById('bar3')
+    closeBars1.style.backgroundColor = "#01758f"
+    closeBars3.style.backgroundColor = "#01758f"
+}
+
+function fechar()
+{
+    let overlay = document.getElementById('overlay');
+    overlay.style.display = "none";
+    let closeButton = document.getElementById('hamburguer');
+    closeButton.style.display = "none";
+    let closeBars1 = document.getElementById('bar1')
+    let closeBars3 = document.getElementById('bar3')
+    closeBars1.style.backgroundColor = "#fff"
+    closeBars3.style.backgroundColor = "#fff"
+    
+}
+
 
 

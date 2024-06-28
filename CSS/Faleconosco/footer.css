@@ -86,7 +86,7 @@ ul{
 ul li{
     width: 35px;
     height: 35px;
-    border: 2px  rgb(242, 92, 4) solid;
+    border: 2px  rgb(255, 255, 255) solid;
     border-radius: 60px;
     display: flex;
     align-items: center;
@@ -122,6 +122,10 @@ ul li:hover .icone{
     transform: scale(0);
 }
 
+#Zap
+{
+    padding-left: 5px;
+}
 
 footer
 {
