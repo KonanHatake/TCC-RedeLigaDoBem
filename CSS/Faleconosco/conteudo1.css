@@ -1,193 +1,192 @@
 main .titulo{
-    color: rgb(242, 92, 4);
-    height: 30vh;
-    max-width: 90%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    row-gap: 2.5rem;
-    text-align: center;
-    font-family: NexaFont;
-    font-weight: bold;
- }
-
- main .titulo h1{
-    font-size: 1.9rem;
-    font-weight: 400;
-    font-weight: bold;
- }
- 
- /* CONTADO DOS SOCIOS */
- 
- main .formulario {
-    margin: 10px auto;
-    max-width: 100%;
-    padding: 30px;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    font-family: CocoGothicFont;
- }
- 
- .formulario .contato {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- }
- 
- .contato .silvana {
-    padding: 15px 0px;
-    line-height: 1.7rem;
- }
- 
- .contato .silvana h5 {
-    font-size: 1.05rem;
-    font-weight: 600;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    font: weight 800px;
- }
- 
- .contato .silvana > p {
-    font-size: .9rem;
-    color: rgb(0, 0, 0);
-    font-weight: 900;
-    
- }
- 
- .icone 
- {
+   color: rgb(242, 92, 4);
+   height: 30vh;
+   max-width: 90%;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   row-gap: 2.5rem;
+   text-align: center;
    font-family: NexaFont;
- }
- 
- .silvana > div {
-    display: flex;
-    align-items: center;
-    column-gap: 7px;
- }
- 
- .email
- {
-   color: #dd9b21;
- }
+   font-weight: bold;
+}
 
- .silvana > div img {
-    width: 23px;
- }
- 
- .silvana div > p {
-    font-size: .9rem;
-    color: rgb(242, 92, 4);
- }
- 
- /* FORMULARIO DE CONTATO */
- 
- .formulario .forms {
-    align-items: center;
-    flex-direction: column;
-    max-width: 100%;
- }
- 
- .forms .inputs {
-    width: 75%;
-    display: flex;
-    align-items: center;
-    column-gap: 20px;
-    margin: 20px 0px;
-    position: relative;
- }
- 
- .forms .inputs img {
-    width: 30px;
- }
- 
- .forms .inputs input {
-    border: none;
-    border: 1px solid rgb(242, 92, 4);
-    padding: 10px 13px;
-    width: 100%;
-    font-size: .9rem;
-    transition: background-color .4s;
- }
- 
- .forms .inputs input::placeholder {
-    color: rgb(242, 92, 4);
- }
- 
- .forms .inputs label {
-    color: rgb(242, 92, 4);
-    background-color: #Fff;
-    border-radius: 2px;
-    font-size: .9rem;
-    font-weight: 500;
-    padding-inline: 3px;
-    position: absolute;
-    left: 4rem;
-    top: -10px;
-    transition: 0.2s ease all;
- }
- 
- .inputs input:focus ~ label {
-    background-color: #f0f0f0;
-    color: rgb(242, 92, 4);
- }
- 
- .forms .inputs input:focus-visible {
-    outline: none;
-    border-bottom: 1px solid rgb(242, 92, 4);
-    background-color: #f0f0f0;
- }
- 
- .forms .inputs textarea {
-    border: none;
-    border: 1px solid rgb(242, 92, 4);
-    padding: 10px;
-    width: 100%;
-    font-size: 1rem;
-    transition: background-color .5s;
-    resize: vertical;
- }
- 
- .forms .inputs textarea::placeholder {
-    color: rgb(242, 92, 4);
-    letter-spacing: 1px;
- }
- 
- .forms textarea:focus-visible {
-    outline: none;
-    border-bottom: 1px solid rgb(242, 92, 4);
-    background-color: #fffefe;
- }
- 
- .forms button[type="submit"] {
-    margin-top: 15px;
-    padding: 10px 30px;
-    font-size: .9rem;
-    border-radius: 5px;
-    letter-spacing: 1px;
-    text-decoration: none;
-    color: rgb(242, 92, 4);
-    background: transparent;
-    cursor: pointer;
-    transition: ease-out .4s;
-    border: 1px solid rgb(242, 92, 4);
-    box-shadow: inset 0 0 0 0 #dd9b21;
-    font-family: NexaFont;
-    font-weight: bold;
- }
- 
- .forms button[type="submit"]:hover {
-    color: white;
-    box-shadow: inset 0 -100px 0 0 rgb(242, 92, 4);
- }
- 
- .forms .inputs .invalido {
-    border: 1px solid red;
- }
+main .titulo h1{
+   font-size: 1.9rem;
+   font-weight: 400;
+   font-weight: bold;
+}
 
- 
- 
- 
- 
- 
+/* CONTADO DOS SOCIOS */
+
+main .formulario {
+   margin: 10px auto;
+   max-width: 100%;
+   padding: 30px;
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   font-family: CocoGothicFont;
+}
+
+.formulario .contato {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.contato .silvana {
+   padding: 15px 0px;
+   line-height: 1.7rem;
+}
+
+.contato .silvana h5 {
+   font-size: 1.05rem;
+   font-weight: 600;
+   color: rgb(0, 0, 0);
+   font-weight: bold;
+   font: weight 800px;
+}
+
+.contato .silvana > p {
+   font-size: .9rem;
+   color: rgb(0, 0, 0);
+   font-weight: 900;
+   
+}
+
+.icone 
+{
+  font-family: NexaFont;
+}
+
+.silvana > div {
+   display: flex;
+   align-items: center;
+   column-gap: 7px;
+}
+
+.email
+{
+  color: #dd9b21;
+}
+
+.silvana > div img {
+   width: 23px;
+}
+
+.silvana div > p {
+   font-size: .9rem;
+   color: rgb(242, 92, 4);
+}
+
+/* FORMULARIO DE CONTATO */
+
+.formulario .forms {
+   align-items: center;
+   flex-direction: column;
+   max-width: 100%;
+}
+
+.forms .inputs {
+   width: 75%;
+   display: flex;
+   align-items: center;
+   column-gap: 20px;
+   margin: 20px 0px;
+   position: relative;
+}
+
+.forms .inputs img {
+   width: 30px;
+}
+
+.forms .inputs input {
+   border: none;
+   border: 1px solid rgb(242, 92, 4);
+   padding: 10px 13px;
+   width: 100%;
+   font-size: .9rem;
+   transition: background-color .4s;
+}
+
+.forms .inputs input::placeholder {
+   color: rgb(242, 92, 4);
+}
+
+.forms .inputs label {
+   color: rgb(242, 92, 4);
+   background-color: #Fff;
+   border-radius: 2px;
+   font-size: .9rem;
+   font-weight: 500;
+   padding-inline: 3px;
+   position: absolute;
+   left: 4rem;
+   top: -10px;
+   transition: 0.2s ease all;
+}
+
+.inputs input:focus ~ label {
+   background-color: #f0f0f0;
+   color: rgb(242, 92, 4);
+}
+
+.forms .inputs input:focus-visible {
+   outline: none;
+   border-bottom: 1px solid rgb(242, 92, 4);
+   background-color: #f0f0f0;
+}
+
+.forms .inputs textarea {
+   border: none;
+   border: 1px solid rgb(242, 92, 4);
+   padding: 10px;
+   width: 100%;
+   font-size: 1rem;
+   transition: background-color .5s;
+   resize: vertical;
+}
+
+.forms .inputs textarea::placeholder {
+   color: rgb(242, 92, 4);
+   letter-spacing: 1px;
+}
+
+.forms textarea:focus-visible {
+   outline: none;
+   border-bottom: 1px solid rgb(242, 92, 4);
+   background-color: #fffefe;
+}
+
+.forms button[type="submit"] {
+   margin-top: 15px;
+   padding: 10px 30px;
+   font-size: .9rem;
+   border-radius: 5px;
+   letter-spacing: 1px;
+   text-decoration: none;
+   color: rgb(242, 92, 4);
+   background: transparent;
+   cursor: pointer;
+   transition: ease-out .4s;
+   border: 1px solid rgb(242, 92, 4);
+   box-shadow: inset 0 0 0 0 #dd9b21;
+   font-family: NexaFont;
+   font-weight: bold;
+}
+
+.forms button[type="submit"]:hover {
+   color: white;
+   box-shadow: inset 0 -100px 0 0 rgb(242, 92, 4);
+}
+
+.forms .inputs .invalido {
+   border: 1px solid red;
+}
+
+
+
+
+

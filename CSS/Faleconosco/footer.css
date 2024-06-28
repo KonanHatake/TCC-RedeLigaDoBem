@@ -57,10 +57,14 @@
     font-family: CocoGothicFont;
 }
 
+.contato, p
+{
+    font-family: NexaFont;
+}
+
 .numero
 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
 }
 
 .buttonsF
@@ -71,7 +75,7 @@
     flex-direction: row;
 }
 
-.u{
+ul{
     list-style-type: none;
     display: flex;
     position: relative;
@@ -79,10 +83,10 @@
     padding-top: 15px;
 }
 
-.u .l{
+ul li{
     width: 35px;
     height: 35px;
-    border: 2px white solid;
+    border: 2px  rgb(242, 92, 4) solid;
     border-radius: 60px;
     display: flex;
     align-items: center;
@@ -91,51 +95,40 @@
     transition: .2s;
 }
 
-.u .l:hover{
+ul li:hover{
     height: 30px;
     width: 140px;
+
 }
 
-.u .l .icone{
+ul li .icone{
     font-size: 18px;
     transition: .2s;
 }
 
-.u .l .texto{
+ul li .texto{
     transform: scale(0);
     transition: .2s;
     font-size: 18px;
 }
 
-.u .l span{
+ul li span{
     position: absolute;
 }
-.u .l:hover .texto{
+ul li:hover .texto{
     transform: scale(1);
 }
-.u .l:hover .icone{
+ul li:hover .icone{
     transform: scale(0);
 }
+
 
 footer
 {
     display: flex;
     flex-direction: column;
     scroll-behavior: smooth;
-    background: linear-gradient(#ffe23b, #eec71c 90%,  #dfac06);
+    background-color: rgb(242, 92, 4);
     color: white;
     text-decoration: none;
-}
-.contato{
-    font-family: NexaFont;
-    font-size: 15px;
-}
-.icone{
-    padding-top: 1px;
-}
-#Zap{
-    padding-left: 5px;
-}
-#paginaInicial{
-    display: none;
 }
