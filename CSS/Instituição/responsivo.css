@@ -172,8 +172,9 @@
     }
 
     .carousel{
-        padding-left: 60%;
-        margin-right: 390px;
+        padding-left: 30%;
+        padding-right: 60%;
+        margin-right: 150px;
         padding-top: 15vh;
     }
 
@@ -220,12 +221,7 @@
 
     .LogoSpaceF
     {
-        display: flex;
-        justify-content: center;
-        width: 320px;
-        height: 220px;
-        margin: 0;
-        padding: 20px;
+        display: none;
     }
 
     .Logof  
@@ -236,9 +232,7 @@
 
     .textF
     {
-        width: 340px;
-        margin: 0;
-        padding: 10px;
+        display: none;
     }
 
     .othersF, .fdiv .numero
@@ -253,11 +247,19 @@
 
     .buttonsF
     {
+        margin-top: 10px;
         width: 360px;
+    }
+
+    .fdivEspecial
+    {
+        display: flex;
+        padding: 12px 0px 5px;
     }
 
     .fdiv
     {
+        height: 30px;
         padding: 0px;
     }
 
@@ -268,12 +270,23 @@
 
     .copy
     {
-        margin-top: 15px;
+        margin-top: 45px;
     }
 
     .RS
     {
         margin-left: 10px;
+    }
+
+    footer ul
+    {
+        padding: 0;
+        margin-bottom: 50px;
+    }
+
+    .contato
+    {
+        display: none;
     }
 
 

@@ -9,29 +9,45 @@
 </head>
 <body>
 
-<header>
-    <div class="logo">
-        <a href="../index.html"><img src="../Imagens/LogoBranca.png" alt="Logo Branca" height="85px" width="175px"></a>
-    </div>
+    <header>
+        <div class="logo">
+            <a href="../index.html"><img src="../Imagens/LogoBranca.png" alt="Logo Branca" height="90px" width="175px"></a>
+        </div>
 
-    <div class="buttonsH">
-        <a href="../index.html">INICIO</a>
-        <a href="../HTML/Instituição.html">INSTITUIÇÃO</a>
-        <a href="../HTML/Atividades.html">ATIVIDADES</a>
-        <a href="../HTML/doações.html">DOAÇÕES</a>
-    </div>
+        <div class="buttonsH">
+            <a href="../index.html">INICIO</a>
+            <a href="./Instituição.html">INSTITUIÇÃO</a>
+            <a href="./Atividades.html">ATIVIDADES</a>
+            <a href="./doações.html">DOAÇÕES</a>
+        </div>
 
-    <div class="help">
-        <a href="" class="helpB">AJUDE-NOS</a>
-    </div>
+        <div class="help">
+            <a href="./Faleconosco.html" class="helpB">AJUDE-NOS</a>
+        </div>
 
-    <!-- BOTÃO PARA O MOBILE -->
-    <div class="hamburguer" onclick="myFunction(this)">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-    </div>
-</header>
+         <!-- BOTÃO HAMBURGUER PARA O MOBILE -->
+         <div class="hamburguer" onclick="toggleMenu()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+        <!-- Botões do menu hamburguer -->
+        <div class="overlay" id="overlay">
+            <div class="closeButton" id="hamburguer" onclick="fechar()">
+                <div class="bar1" id="bar1"></div>
+                <div class="bar3" id="bar3"></div>
+            </div>
+            <div class="overlayButtons">
+            <a href="../index.html">INICIO</a>
+            <a href="./Instituição.html">INSTITUIÇÃO</a>
+            <a href="./Atividades.html">ATIVIDADES</a>
+            <a href="./doações.html">DOAÇÕES</a>
+            <a href="./Faleconosco.html">AJUDE-NOS</a>
+        </div>
+        </div>
+
+    </header>
 <hr>
 
 <main id="menzinho">
@@ -156,6 +172,7 @@
 
 
     <script src="../JS/Faleconosco.js"></script>
+    <script src="../JS/HeaderResponsivo.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <script type="text/javascript">
         (function() {

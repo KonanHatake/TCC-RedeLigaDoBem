@@ -130,19 +130,17 @@
         padding: 0;
     }
 
-    .relatoNaninho, .relatoExAluno
-    {
-        width: 300px;
-        height: 570px;
-    }
-
     .relatoNaninho
     {
+        width: 300px;
+        height: 980px;
         margin: 40px 0px;
     }
 
     .relatoExAluno
     {
+        width: 300px;
+        height: 750px;
         margin: 40px 0px;
     }
 
@@ -171,7 +169,7 @@
     .relatoNaninho p, .relatoExAluno p
     {
         padding: 15px 8px 15px;
-        font-family: CocoGothicFont;
+        font-family: NexaFont;
         font-size: 17px;
         text-align: justify;
         width: 270px;
@@ -183,13 +181,13 @@
     .textM img, .textM h3
     {
         width: 340px;
-        height: 45vh;
+        height: 37vh;
     }
 
     .textM
     {
         width: 360px;
-        height: 60vh;
+        height: 50vh;
     }
 
     .map
