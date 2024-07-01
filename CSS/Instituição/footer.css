@@ -117,6 +117,12 @@ ul li:hover .icone{
     transform: scale(0);
 }
 
+.contato
+{
+    font-family: NexaFont;
+    font-size: 15px;
+}
+
 footer
 {
     display: flex;
