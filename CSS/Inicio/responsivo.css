@@ -133,14 +133,14 @@
     .relatoNaninho
     {
         width: 300px;
-        height: 980px;
+        height: 1040px;
         margin: 40px 0px;
     }
 
     .relatoExAluno
     {
         width: 300px;
-        height: 750px;
+        height: 780px;
         margin: 40px 0px;
     }
 
@@ -170,7 +170,7 @@
     {
         padding: 15px 8px 15px;
         font-family: NexaFont;
-        font-size: 17px;
+        font-size: 18px;
         text-align: justify;
         width: 270px;
     }
