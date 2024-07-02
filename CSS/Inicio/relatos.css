@@ -1,273 +1,61 @@
-@media(max-width:760px)
+.relato
 {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    flex-wrap: wrap;
+}
 
-    *
-    {
-        align-items: center;
-    }
+.relatoNaninho, .relatoExAluno
+{
+    display: flex;
+    align-items: center;
+    padding: 60px 40px;
+    height: 980px;
+    width: 430px;
+    flex-direction: column;
+    border-radius: 50px;
+    -webkit-box-shadow: 0px 10px 24px 0px rgba(66, 68, 90, 0.200);
+    -moz-box-shadow: 0px 10px 24px 0px rgba(66, 68, 90, 0.200);
+    box-shadow: 0px 10px 24px 0px rgba(66, 68, 90, 0.200);
+}
 
-    /*Header*/
-    header .buttonsH, .help
-    {
-        display: none;
-    }
+.relatoNaninho
+{
+    margin-right: 60px;
+}
 
-    header .logo
-    {
-        padding: 0;
-        transform: scale(0.85);
-    }
+.relatoExAluno
+{
+    margin-left: 60px;
+}
 
-    header .hamburguer 
-    {
-        display: inline-block;
-        padding: 38px 30px;
-    }
-      
-    .bar1, .bar2, .bar3 
-    {
-        width: 35px;
-        height: 5px;
-        background-color: #0096B6;
-        margin: 6px 0;
-    }
-      
-    .closeButton .bar1 
-    {
-        transform: translate(0, 5px) rotate(-44deg);
-    }
-      
-    .closeButton .bar3 
-    {
-        transform: translate(0, -5px) rotate(45deg);
-    }
+.relatoNaninho img, .relatoExAluno img
+{
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+}
 
-    .closeButton
-    {
-        position: absolute;
-        top: 45px;
-        right: 30px;
-    }
+.relatoNaninho h2, .relatoExAluno h2
+{
+    text-align: center;
+    font-size: 30px;
+    font-family: NexaFont;
+    font-weight: bold;
+}
 
-    .overlay 
-    {
-        display: none;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgb(255, 255, 255);
-        z-index: 2;
-        padding: 0px 0px 0px; /* Ajuste conforme necessário */
-        box-sizing: border-box;
-        font-family: NexaFont;
-        font-weight: bold;
-    }
+.relatoNaninho h3, .relatoExAluno h3
+{
+    text-align: center;
+    font-size: 20px;
+    font-family: NexaFont;
+    font-weight: bold;
+}
 
-    .overlay.active 
-    {
-        display: block; /* Mostra o overlay quando a classe 'active' é adicionada */
-    }
-
-    .overlay a 
-    {
-        display: block;
-        padding: 30px 20px;
-        font-size: 18px;
-        color: #0096B6;
-        text-decoration: none;
-        text-align: center;
-    }
-
-    .overlayButtons
-    {
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    /*Banner*/
-
-    .bannerImage
-    {
-        height: 30vh;
-    }
-
-    .titleB
-    {
-        width: 360px;
-        font-size: 30px;
-    }
-
-    .subtitleB
-    {
-        width: 360px;
-        font-size: 20px;
-    }
-
-    /*Cards*/
-
-    .cards
-    {
-        display: inline;
-        height: 100vh;
-        margin: auto;
-    }
-
-    .card
-    {
-        margin-top: 20px;
-        height: 300px;
-        width: 250px;
-    }
-
-    /*Relatos*/
-
-    .relato
-    {
-        padding: 0;
-    }
-
-    .relatoNaninho
-    {
-        width: 300px;
-        height: 980px;
-        margin: 40px 0px;
-    }
-
-    .relatoExAluno
-    {
-        width: 300px;
-        height: 750px;
-        margin: 40px 0px;
-    }
-
-    .relatoNaninho img, .relatoExAluno img
-    {
-        width: 200px;
-        height: 200px;
-        padding: 5px;
-    }
-
-    .relatoNaninho h2, .relatoExAluno h2
-    {
-        padding: 5px;
-        font-family: NexaFont;
-        font-weight: bold;
-        font-size: 25px;
-    }
-    
-    .relatoNaninho h3, .relatoExAluno h3
-    {
-        font-family: CocoGothicFont;
-        font-weight: bold;
-        font-size: 20px;
-    }
-    
-    .relatoNaninho p, .relatoExAluno p
-    {
-        padding: 15px 8px 15px;
-        font-family: NexaFont;
-        font-size: 17px;
-        text-align: justify;
-        width: 270px;
-    }
-
-    
-    /*Map*/
-
-    .textM img, .textM h3
-    {
-        width: 340px;
-        height: 37vh;
-    }
-
-    .textM
-    {
-        width: 360px;
-        height: 50vh;
-    }
-
-    .map
-    {
-        width: 360px;
-    }
-
-    .map h3
-    {
-        height: 10vh;
-    }
-
-    .mapIframe
-    {
-     display: none;   
-    }
-
-    /*Footer*/
-
-    .LogoSpaceF
-    {
-        display: none;
-    }
-
-    .Logof  
-    {
-        height: 250px;
-        width: 250px;
-    }
-
-    .textF
-    {
-        display: none;
-    }
-
-    .othersF, .fdiv .numero
-    {
-        display: none;
-    }
-
-    .buttonsF
-    {
-        flex-direction: column;
-    }
-
-    .buttonsF
-    {
-        width: 360px;
-    }
-
-    .fdivEspecial
-    {
-        display: flex;
-        padding: 12px 0px 5px;
-    }
-
-    .fdiv
-    {
-        height: 30px;
-        padding: 0px;
-    }
-
-    .fdiv p, ul
-    {
-        width: 360px;
-    }
-
-    .copy
-    {
-        margin-top: 45px;
-    }
-
-    .RS
-    {
-        margin-left: 10px;
-    }
-
-    footer ul
-    {
-        padding: 0;
-        margin-bottom: 50px;
-    }
+.relatoNaninho p, .relatoExAluno p
+{
+    text-align: center;
+    font-size: 20px;
+    font-family: NexaFont;
 }
