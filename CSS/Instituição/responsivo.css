@@ -66,14 +66,13 @@
     /*Quem somos nos*/
 
     .texto1 {
-    
-     text-align: justify;
+
          text-align: center;
          font-size: 18px;
          padding-left: 14%;
          padding-right: 14%;
          font-weight: bold;
-         text-align: justify;
+
      
      }
      
@@ -88,7 +87,7 @@
      }
 
      .QuemSomos h1{
-        font-size: 40px;
+        font-size: 37px;
      }
 
     /*MVV*/
@@ -125,7 +124,7 @@
         font-size: 16px;
         padding-left: 12%;
     padding-right: 12%;
-    text-align: justify;
+
     }
 
     .trajetoria{

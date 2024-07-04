@@ -25,27 +25,27 @@
 {
     background-color: #0096B6;
     padding: 100px 30px;
-    text-align: justify;
     font-family: CocoGothicFont;
     font-size: 20px;
+    text-align: center;
 }
 
 .Visão
 {
     background-color: #1db4d6;
     padding: 100px 30px;
-    text-align: justify;
     font-family: CocoGothicFont;
     font-size: 20px;
+    text-align: center;
 }
 
 .Valor
 {
     background-color: #093c47;
     padding: 100px 30px;
-    text-align: justify;
     font-family: CocoGothicFont;
     font-size: 20px;
+    text-align: center;
 }
 
 
